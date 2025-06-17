@@ -71,7 +71,11 @@
 
 ###
 
-![snake gif](https://github.com/dksaddy/dksaddy/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph-dark.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
+</picture>
+
 
 ###
 
