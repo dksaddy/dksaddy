@@ -2,7 +2,7 @@
 
 ###
 
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dksaddy.dksaddy&left_color=cadetblue&right_color=brown&left_text=Plaese%20Leave%20Following"  />
+<img align="right" src="https://profile-counter.glitch.me/dksaddy/count.svg?"  />
 
 ###
 
@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time I like to do Gradening</p>
+<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time I like to do Gradening.</p>
 
 ###
 
@@ -73,13 +73,9 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph-dark.svg">
-  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
 </picture>
-
-
-###
-
-<h3 align="left">🔥   My Stats :</h3>
 
 ###
 
