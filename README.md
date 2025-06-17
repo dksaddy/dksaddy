@@ -71,6 +71,10 @@
 
 ###
 
+![snake gif](https://github.com/dksaddy/dksaddy/blob/output/github-contribution-grid-snake.svg)
+
+###
+
 <h3 align="left">🔥   My Stats :</h3>
 
 ###
