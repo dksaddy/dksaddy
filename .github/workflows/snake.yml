@@ -1,25 +1,26 @@
-name: Generate Snake
+name: generate pacman contribution graph
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
-  workflow_dispatch: # allow manual run
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub Snake SVG
+      - name: Generate Pacman SVG
         uses: Platane/snk@v3
         with:
           github_user_name: dksaddy
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            ./output/pacman-contribution-graph.svg
+            ./output/pacman-contribution-graph-dark.svg?palette=github-dark
 
-      - name: Push to output branch
+      - name: Push generated SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
