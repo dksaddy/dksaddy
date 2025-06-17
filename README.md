@@ -2,15 +2,15 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
-
-###
-
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=dksaddy.dksaddy&left_color=cadetblue&right_color=brown&left_text=Plaese%20Leave%20Following"  />
 
 ###
 
 <img align="left" height="170" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+
+###
+
+<h3 align="left">👩‍💻  About Me</h3>
 
 ###
 
@@ -71,15 +71,15 @@
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
 </picture>
+
+###
+
+<h3 align="left">🔥   My Stats :</h3>
 
 ###
 
