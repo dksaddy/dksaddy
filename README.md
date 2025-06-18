@@ -83,10 +83,11 @@
 <div style="display: flex; flex-direction: column; align-items: center; gap: 24px;">
 
   <!-- Row: Languages + Stats -->
-  <div style="display: flex; justify-content: center; gap: 100px; flex-wrap: wrap;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=compact&card_width=300&langs_count=6&theme=gruvbox" alt="Top Languages" />
-    <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox" alt="GitHub Stats" />
-  </div>
+ <div style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; gap: 32px; width: 100%;">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=compact&card_width=300&langs_count=6&theme=gruvbox" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox" alt="GitHub Stats" />
+</div>
+
 
   <!-- Row: Streak -->
   <div>
