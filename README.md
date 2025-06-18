@@ -25,6 +25,14 @@
 
 ###
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
+</picture>
+
+###
+
 <h3 align="left">🛠 Language and tools</h3>
 
 ###
@@ -70,15 +78,6 @@
 </div>
 
 ###
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/pacman-contribution-graph.svg">
-</picture>
-
-###
-
 
 <!-- Languages + Stats (Side by Side) -->
 <p align="center">
