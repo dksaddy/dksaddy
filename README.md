@@ -79,14 +79,6 @@
 
 ###
 
-<!-- Languages + Stats (Side by Side) -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=donut&card_width=350&langs_count=6&theme=gruvbox" alt="Top Languages" />
-</p>
-
-<p align="center">
- <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox" alt="GitHub Stats" />
-</p>
 
 <!-- Streak Stats -->
 <p align="center">
