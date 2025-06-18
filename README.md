@@ -80,26 +80,25 @@
 ###
 
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 24px;">
+<!-- Languages + Stats (Side by Side) -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=donut&card_width=350&langs_count=6&theme=gruvbox" alt="Top Languages" />
+</p>
 
-  <!-- Row: Languages + Stats -->
- <div style="display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; gap: 32px; width: 100%;">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=compact&card_width=300&langs_count=6&theme=gruvbox" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox" alt="GitHub Stats" />
-</div>
+<p align="center">
+ <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox" alt="GitHub Stats" />
+</p>
 
+<!-- Streak Stats -->
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=dksaddy&theme=highcontrast" alt="GitHub Streak" />
+</p>
 
-  <!-- Row: Streak -->
-  <div>
-    <img src="https://streak-stats.demolab.com?user=dksaddy&theme=highcontrast" alt="GitHub Streak" />
-  </div>
+<!-- Contribution Graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=4&theme=github-dark&area=true&order=5" alt="Contribution Graph" />
+</p>
 
-  <!-- Row: Activity Graph -->
-  <div>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=4&theme=github-dark&area=true&order=5" height="300" alt="Contribution Graph" />
-  </div>
-
-</div>
 
 
 ###
