@@ -79,9 +79,21 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=6&theme=gruvbox&hide_border=true&order=2" height="150" alt="languages graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=16&theme=github-dark&area=true&order=5&hide_border=true&hide_title=true" height="300" alt="activity-graph graph"  />
+<div style="display: flex; justify-content: center;">
+
+  <!-- Flex container for language & stats -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dksaddy&layout=compact&card_width=300&langs_count=6&theme=gruvbox" alt="languages graph" />
+
+   ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=gruvbox)
+
+  </div>
+
+  <!-- Vertical stack below -->
+  <img src="https://streak-stats.demolab.com?user=dksaddy&theme=highcontrast" alt="GitHub Streak" style="margin-top: 20px;" />
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=16&theme=github-dark&area=true&order=5&hide_border=true&hide_title=true" height="300" alt="activity-graph graph" style="margin-top: 20px;" />
+
 </div>
 
 ###
