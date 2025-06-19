@@ -18,11 +18,11 @@
 
 ###
 
-<h5 align="right">✉️ Contact Me</h5>
+<h5 align="left">✉️ Contact Me</h5>
 
 ###
 
-<div align="right">
+<div align="left">
   <a href="https://mail.google.com/mail/?view=cm&to=saddypro1@gmail.com&su=Contact%20from%20GitHub&body=Hi%20Sadik,%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out." target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /></a>
   
@@ -90,7 +90,7 @@
 ###
 
 
-<h3 align="left">📊 Statistics</h3>
+<h3 align="left">📊 Statistics and Graph</h3>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=dksaddy&show_icons=true&theme=highcontrast&show_rank=true&ring_color=FF8FFF&hide_border=true&border_radius=16" />
