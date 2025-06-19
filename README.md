@@ -6,20 +6,19 @@
 
 ###
 
-<img align="left" height="170" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
-
-###
-
 <h3 align="left">👩‍💻  About Me</h3>
 
 ###
 
-<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time I like to do Gradening.</p>
+<img align="right" height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZqbzY4c3dlaTM3azJ6OW13bGd3YTdnNGhqZDc2MGVtdDg5eDNxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" />
 
 ###
 
+<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer building scalable web apps with React and Node.js.<br>- 📚 Currently learning JavaScript and diving deeper into modern frameworks like Next.js.<br>- ⚡ In my free time, I enjoy gardening and exploring new tech trends.<br>- 🤝 Open to collaboration and freelance opportunities.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.<br>- 📩 You can reach me via the buttons below — LinkedIn, Email, or my Website — click to connect!</p>
 
-<div align="right">
+###
+
+<div align="left">
   <a href="https://mail.google.com/mail/?view=cm&to=saddypro1@gmail.com&su=Contact%20from%20GitHub&body=Hi%20Sadik,%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out." target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /></a>
   
@@ -29,7 +28,6 @@
   <a href="https://msadik.framer.website/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Portfolio&logo=framer&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio" /></a>
 </div>
-
 
 ###
 
