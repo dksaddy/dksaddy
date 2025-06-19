@@ -10,11 +10,15 @@
 
 ###
 
-<img align="right" height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2ZqbzY4c3dlaTM3azJ6OW13bGd3YTdnNGhqZDc2MGVtdDg5eDNxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoKnwFNmISR8I/giphy.gif" />
+<img align="right" height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTFpd2FmcHNzazM2aXo3NXFtb28yNDBneWpscml2cGhjMGNydTRnbyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
 ###
 
-<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer building scalable web apps with React and Node.js.<br>- 📚 Currently learning JavaScript and diving deeper into modern frameworks like Next.js.<br>- ⚡ In my free time, I enjoy gardening and exploring new tech trends.<br>- 🤝 Open to collaboration and freelance opportunities.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.<br>- 📩 You can reach me via the buttons below — LinkedIn, Email, or my Website — click to connect!</p>
+<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time, I enjoy gardening.<br>- 🤝 Open to: collaborations, freelance projects, mentorship.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.</p>
+
+###
+
+<h5 align="right">✉️ Contact Me</h5>
 
 ###
 
