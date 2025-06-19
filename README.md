@@ -18,7 +18,7 @@
 
 ###
 
-<h5 align="left">✉️ Contact Me</h5>
+<h3 align="left">✉️ Contact Me</h3>
 
 ###
 
