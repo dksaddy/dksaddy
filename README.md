@@ -10,7 +10,7 @@
 
 ###
 
-<img align="right" height="200" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGY0eGJmbGMxNWFhMmM0bzVxZjR4Z3I5d25nMDRmMTZvNmx6bmtjcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif"  />
+<img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmw3ZHN2cGNicGFndHFqZWt4OXBxbjZjN2syMWU3OTZ1OTZzbHJuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif"  />
 
 ###
 
@@ -22,7 +22,7 @@
 
 ###
 
-<div align="left">
+<div align="center">
   <a href="https://mail.google.com/mail/?view=cm&to=saddypro1@gmail.com&su=Contact%20from%20GitHub&body=Hi%20Sadik,%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out." target="_blank">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /></a>
   
