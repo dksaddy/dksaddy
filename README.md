@@ -6,11 +6,11 @@
 
 ###
 
-<h3 align="left">🙋🏻‍♂️ About Me</h3>
+<img align="left" height="200" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTUyM254N2QyZTAwaTFsdzF0MG52aGpsdm9rb2hicTdqc21kYmM4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wwg1suUiTbCY8H8vIA/giphy.gif"  />
 
 ###
 
-<img align="right" height="200" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NnZjbHNvZmVjOTluMjA1am5ycm1lMWhsczBhNzRjMzhuYWcwaTRqMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FMAUcALBqjajXV0qej/giphy.gif"  />
+<h3 align="left">🙋🏻‍♂️ About Me</h3>
 
 ###
 
