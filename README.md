@@ -6,19 +6,16 @@
 
 ###
 
-<h3 align="left">👩‍💻  About Me</h3>
+<img align="left" height="150" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHR6a2JlandvNWV1bGh1ZHlibjEzY3pua2s0bGRwajU2cDNrcHBsdCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l3nWay9wKNdq6WTxm/giphy.gif"  />
 
 ###
 
-<img align="right" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzljNHcxdnhnYm85bTRkNGY0bDVvemwyMml4dDh5b3gyOWo4YXlkdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Jmlch2dREzJpBAnV6e/giphy.gif"  />
+<h3 align="left">𝓐𝓫𝓸𝓾𝓽 𝓜𝓮</h3>
 
 ###
 
 <p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time, I enjoy gardening.<br>- 🤝 Open to: collaborations, freelance projects, mentorship.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.</p>
 
-###
-
-<h3 align="left">✉️ Contact Me</h3>
 
 ###
 
