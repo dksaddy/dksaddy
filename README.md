@@ -6,11 +6,7 @@
 
 ###
 
-<img align="left" height="150" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aHR6a2JlandvNWV1bGh1ZHlibjEzY3pua2s0bGRwajU2cDNrcHBsdCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/l3nWay9wKNdq6WTxm/giphy.gif"  />
-
-###
-
-<h3 align="left">𝓐𝓫𝓸𝓾𝓽 𝓜𝓮</h3>
+<h3 align="left">🙋🏻‍♂️ About Me</h3>
 
 ###
 
