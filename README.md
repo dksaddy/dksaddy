@@ -10,6 +10,10 @@
 
 ###
 
+<img align="right" height="200" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3NnZjbHNvZmVjOTluMjA1am5ycm1lMWhsczBhNzRjMzhuYWcwaTRqMCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FMAUcALBqjajXV0qej/giphy.gif"  />
+
+###
+
 <p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time, I enjoy gardening.<br>- 🤝 Open to: collaborations, freelance projects, mentorship.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.</p>
 
 
