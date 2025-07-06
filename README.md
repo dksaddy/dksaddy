@@ -10,10 +10,6 @@
 
 ###
 
-<img align="right" height="200" src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cjF5OXAydjViNXRxemlxd3hibm5yMWR1bGNua3l3Y2xraDR4emN0NyZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif"  />
-
-###
-
 <p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time, I enjoy gardening.<br>- 🤝 Open to: collaborations, freelance projects, mentorship.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.</p>
 
 ###
@@ -25,8 +21,6 @@
   <a href="https://www.linkedin.com/in/mohiuddin-sadik-151941251/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" /></a>
   
-  <a href="https://msadik.framer.website/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Portfolio&logo=framer&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio" /></a>
 </div>
 
 ###
