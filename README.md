@@ -6,13 +6,6 @@
 
 ###
 
-<h3 align="left">About Me</h3>
-
-###
-
-
-
-###
 
 <div align="center">
   <a href="https://mail.google.com/mail/?view=cm&to=saddypro1@gmail.com&su=Contact%20from%20GitHub&body=Hi%20Sadik,%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out." target="_blank">
