@@ -2,6 +2,13 @@
 
 ###
 
+<h3 align="left">About Me</h3>
+
+###
+
+<p align="left">I'm Saddy from Dhaka, Bangladesh<br><br>- 🔭 I’m working as a Full-Stack Web Developer.<br>- 📚 I'm currently learning JavaScript.<br>- ⚡ In my free time, I enjoy gardening.<br>- 🤝 Open to: collaborations, freelance projects, mentorship.<br>- 🌍 Languages I speak: English, Bengali.<br>- 🎯 My goals: Improve coding skills, contribute to open source, and build impactful apps.</p>
+
+###
 
 <div align="center">
   <a href="https://mail.google.com/mail/?view=cm&to=saddypro1@gmail.com&su=Contact%20from%20GitHub&body=Hi%20Sadik,%0D%0AI%20saw%20your%20GitHub%20profile%20and%20wanted%20to%20reach%20out." target="_blank">
