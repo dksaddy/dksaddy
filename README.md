@@ -36,7 +36,7 @@
 ###
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,figma,c,java,npm,linux,vscode" height="40" />
+  <img src="https://skillicons.dev/icons?i=laravel,html,css,tailwind,figma,c,java,npm,linux,vscode" height="40" />
 </div>
 
 ###
