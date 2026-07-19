@@ -63,5 +63,7 @@
 <h3 align="left">📊 Statistics and Graph</h3>
 
 <div align="center">
+  <img src="https://streak-stats.demolab.com?user=dksaddy&locale=en&mode=weekly&theme=radical&hide_border=true&border_radius=5&date_format=j%20M%5B%20Y%5D&order=3" height="150" alt="streak graph"  />
+  
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=16&theme=high-contrast&area=true&order=5&color=F3C623&point=FFF245&area_color=F8EEDF&line=EA2F14&title_color=FFF245&hide_border=true&hide_title=false" height="220" alt="activity-graph graph"  />
 </div>
