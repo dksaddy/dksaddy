@@ -1,634 +1,163 @@
 
-<svg xmlns="http://www.w3.org/2000/svg"
-width="820"
-height="300"
-viewBox="0 0 820 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="448"
+viewBox="0 0 820 448">
 
 <defs>
-
-<linearGradient id="gradient"
-x1="0"
-y1="0"
-x2="0"
-y2="1">
-
-<stop offset="0%" stop-color="#F8EEDF" stop-opacity=".35"/>
-<stop offset="100%" stop-color="#F8EEDF" stop-opacity="0"/>
-
+<linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#3ddc84" stop-opacity="0.28"/>
+<stop offset="100%" stop-color="#3ddc84" stop-opacity="0"/>
 </linearGradient>
-
 </defs>
+
 
 <rect
 width="820"
-height="300"
-rx="18"
-fill="#171522"/>
+height="448"
+rx="16"
+fill="#000000"/>
 
-
-<line
-x1="60"
-y1="60"
-x2="760"
-y2="60"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="65"
-text-anchor="end"
-font-size="11"
-fill="#888">16</text>
-<line
-x1="60"
-y1="94"
-x2="760"
-y2="94"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="99"
-text-anchor="end"
-font-size="11"
-fill="#888">13</text>
-<line
-x1="60"
-y1="128"
-x2="760"
-y2="128"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="133"
-text-anchor="end"
-font-size="11"
-fill="#888">10</text>
-<line
-x1="60"
-y1="162"
-x2="760"
-y2="162"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="167"
-text-anchor="end"
-font-size="11"
-fill="#888">6</text>
-<line
-x1="60"
-y1="196"
-x2="760"
-y2="196"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="201"
-text-anchor="end"
-font-size="11"
-fill="#888">3</text>
-<line
-x1="60"
-y1="230"
-x2="760"
-y2="230"
-stroke="#2d2b55"
-stroke-width="1"/>
-<text
-x="50"
-y="235"
-text-anchor="end"
-font-size="11"
-fill="#888">0</text>
-<line
-x1="60"
-y1="60"
-x2="60"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="60"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">5</text>
-<line
-x1="83.33333333333333"
-y1="60"
-x2="83.33333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="106.66666666666666"
-y1="60"
-x2="106.66666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="106.66666666666666"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">7</text>
-<line
-x1="130"
-y1="60"
-x2="130"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="153.33333333333331"
-y1="60"
-x2="153.33333333333331"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="153.33333333333331"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">9</text>
-<line
-x1="176.66666666666666"
-y1="60"
-x2="176.66666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="200"
-y1="60"
-x2="200"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="200"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">11</text>
-<line
-x1="223.33333333333331"
-y1="60"
-x2="223.33333333333331"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="246.66666666666666"
-y1="60"
-x2="246.66666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="246.66666666666666"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">13</text>
-<line
-x1="270"
-y1="60"
-x2="270"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="293.3333333333333"
-y1="60"
-x2="293.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="293.3333333333333"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">15</text>
-<line
-x1="316.66666666666663"
-y1="60"
-x2="316.66666666666663"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="340"
-y1="60"
-x2="340"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="340"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">17</text>
-<line
-x1="363.3333333333333"
-y1="60"
-x2="363.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="386.66666666666663"
-y1="60"
-x2="386.66666666666663"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="386.66666666666663"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">19</text>
-<line
-x1="410"
-y1="60"
-x2="410"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="433.3333333333333"
-y1="60"
-x2="433.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="433.3333333333333"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">21</text>
-<line
-x1="456.66666666666663"
-y1="60"
-x2="456.66666666666663"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="480"
-y1="60"
-x2="480"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="480"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">23</text>
-<line
-x1="503.3333333333333"
-y1="60"
-x2="503.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="526.6666666666666"
-y1="60"
-x2="526.6666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="526.6666666666666"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">25</text>
-<line
-x1="550"
-y1="60"
-x2="550"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="573.3333333333333"
-y1="60"
-x2="573.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="573.3333333333333"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">27</text>
-<line
-x1="596.6666666666666"
-y1="60"
-x2="596.6666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="620"
-y1="60"
-x2="620"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="620"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">29</text>
-<line
-x1="643.3333333333333"
-y1="60"
-x2="643.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="666.6666666666666"
-y1="60"
-x2="666.6666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="666.6666666666666"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">31</text>
-<line
-x1="690"
-y1="60"
-x2="690"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="713.3333333333333"
-y1="60"
-x2="713.3333333333333"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="713.3333333333333"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">2</text>
-<line
-x1="736.6666666666666"
-y1="60"
-x2="736.6666666666666"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<line
-x1="760"
-y1="60"
-x2="760"
-y2="230"
-stroke="#23203d"
-stroke-width=".7"/>
-<text
-x="760"
-y="250"
-text-anchor="middle"
-font-size="11"
-fill="#999">4</text>
-
-<path
-d="M 60 219.375 C 71.66666666666666 219.375, 71.66666666666666 230, 83.33333333333333 230 C 95 230, 95 230, 106.66666666666666 230 C 118.33333333333333 230, 118.33333333333333 230, 130 230 C 141.66666666666666 230, 141.66666666666666 230, 153.33333333333331 230 C 165 230, 165 230, 176.66666666666666 230 C 188.33333333333331 230, 188.33333333333331 230, 200 230 C 211.66666666666666 230, 211.66666666666666 230, 223.33333333333331 230 C 235 230, 235 230, 246.66666666666666 230 C 258.3333333333333 230, 258.3333333333333 230, 270 230 C 281.66666666666663 230, 281.66666666666663 230, 293.3333333333333 230 C 305 230, 305 219.375, 316.66666666666663 219.375 C 328.3333333333333 219.375, 328.3333333333333 230, 340 230 C 351.66666666666663 230, 351.66666666666663 155.625, 363.3333333333333 155.625 C 375 155.625, 375 155.625, 386.66666666666663 155.625 C 398.3333333333333 155.625, 398.3333333333333 60, 410 60 C 421.66666666666663 60, 421.66666666666663 155.625, 433.3333333333333 155.625 C 445 155.625, 445 219.375, 456.66666666666663 219.375 C 468.3333333333333 219.375, 468.3333333333333 81.25, 480 81.25 C 491.66666666666663 81.25, 491.66666666666663 145, 503.3333333333333 145 C 515 145, 515 198.125, 526.6666666666666 198.125 C 538.3333333333333 198.125, 538.3333333333333 176.875, 550 176.875 C 561.6666666666666 176.875, 561.6666666666666 219.375, 573.3333333333333 219.375 C 585 219.375, 585 230, 596.6666666666666 230 C 608.3333333333333 230, 608.3333333333333 230, 620 230 C 631.6666666666666 230, 631.6666666666666 145, 643.3333333333333 145 C 655 145, 655 230, 666.6666666666666 230 C 678.3333333333333 230, 678.3333333333333 198.125, 690 198.125 C 701.6666666666666 198.125, 701.6666666666666 134.375, 713.3333333333333 134.375 C 725 134.375, 725 230, 736.6666666666666 230 C 748.3333333333333 230, 748.3333333333333 208.75, 760 208.75 L 760 230 L 60 230 Z"
-fill="url(#gradient)"/>
-
-<path
-d="M 60 219.375 C 71.66666666666666 219.375, 71.66666666666666 230, 83.33333333333333 230 C 95 230, 95 230, 106.66666666666666 230 C 118.33333333333333 230, 118.33333333333333 230, 130 230 C 141.66666666666666 230, 141.66666666666666 230, 153.33333333333331 230 C 165 230, 165 230, 176.66666666666666 230 C 188.33333333333331 230, 188.33333333333331 230, 200 230 C 211.66666666666666 230, 211.66666666666666 230, 223.33333333333331 230 C 235 230, 235 230, 246.66666666666666 230 C 258.3333333333333 230, 258.3333333333333 230, 270 230 C 281.66666666666663 230, 281.66666666666663 230, 293.3333333333333 230 C 305 230, 305 219.375, 316.66666666666663 219.375 C 328.3333333333333 219.375, 328.3333333333333 230, 340 230 C 351.66666666666663 230, 351.66666666666663 155.625, 363.3333333333333 155.625 C 375 155.625, 375 155.625, 386.66666666666663 155.625 C 398.3333333333333 155.625, 398.3333333333333 60, 410 60 C 421.66666666666663 60, 421.66666666666663 155.625, 433.3333333333333 155.625 C 445 155.625, 445 219.375, 456.66666666666663 219.375 C 468.3333333333333 219.375, 468.3333333333333 81.25, 480 81.25 C 491.66666666666663 81.25, 491.66666666666663 145, 503.3333333333333 145 C 515 145, 515 198.125, 526.6666666666666 198.125 C 538.3333333333333 198.125, 538.3333333333333 176.875, 550 176.875 C 561.6666666666666 176.875, 561.6666666666666 219.375, 573.3333333333333 219.375 C 585 219.375, 585 230, 596.6666666666666 230 C 608.3333333333333 230, 608.3333333333333 230, 620 230 C 631.6666666666666 230, 631.6666666666666 145, 643.3333333333333 145 C 655 145, 655 230, 666.6666666666666 230 C 678.3333333333333 230, 678.3333333333333 198.125, 690 198.125 C 701.6666666666666 198.125, 701.6666666666666 134.375, 713.3333333333333 134.375 C 725 134.375, 725 230, 736.6666666666666 230 C 748.3333333333333 230, 748.3333333333333 208.75, 760 208.75"
+<rect
+width="820"
+height="448"
+rx="16"
 fill="none"
-stroke="#EA2F14"
-stroke-width="4"
-stroke-linecap="round"
-stroke-linejoin="round"/>
+stroke="#3aa6d9"
+stroke-opacity="0.35"
+stroke-width="1"/>
 
-
-<circle
-cx="60"
-cy="219.375"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="83.33333333333333"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="106.66666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="130"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="153.33333333333331"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="176.66666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="200"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="223.33333333333331"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="246.66666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="270"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="293.3333333333333"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="316.66666666666663"
-cy="219.375"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="340"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="363.3333333333333"
-cy="155.625"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="386.66666666666663"
-cy="155.625"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="410"
-cy="60"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="433.3333333333333"
-cy="155.625"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="456.66666666666663"
-cy="219.375"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="480"
-cy="81.25"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="503.3333333333333"
-cy="145"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="526.6666666666666"
-cy="198.125"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="550"
-cy="176.875"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="573.3333333333333"
-cy="219.375"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="596.6666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="620"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="643.3333333333333"
-cy="145"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="666.6666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="690"
-cy="198.125"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="713.3333333333333"
-cy="134.375"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="736.6666666666666"
-cy="230"
-r="4"
-fill="#FFF245"/>
-<circle
-cx="760"
-cy="208.75"
-r="4"
-fill="#FFF245"/>
 
 <text
-x="410"
-y="30"
-text-anchor="middle"
-font-size="22"
-font-weight="bold"
-fill="#FFF245">
-
-Contribution Activity
-
+x="32"
+y="46"
+fill="#ffd60a"
+font-size="17"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600">
+$ github activity --last 31
 </text>
 
-<line
-x1="60"
-y1="245"
-x2="760"
-y2="245"
-stroke="#2d2b55"/>
 
-<text
-x="180"
-y="275"
-text-anchor="middle"
-font-size="16"
 
-fill="#FFFFFF"
-font-weight="bold">
+<line x1="76" y1="90" x2="744" y2="90"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
 
-Current Week: 22 commits
+<text x="60" y="94" text-anchor="end"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">20</text>
 
-</text>
+<line x1="76" y1="140" x2="744" y2="140"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
 
-<text
-x="640"
-y="275"
-text-anchor="middle"
-font-size="16"
-fill="#FFFFFF"
-font-weight="bold">
+<text x="60" y="144" text-anchor="end"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">15</text>
 
-Last 31 Days: 93 commits
+<line x1="76" y1="190" x2="744" y2="190"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
 
-</text>
+<text x="60" y="194" text-anchor="end"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">10</text>
+
+<line x1="76" y1="240" x2="744" y2="240"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+
+<text x="60" y="244" text-anchor="end"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">5</text>
+
+<line x1="76" y1="290" x2="744" y2="290"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+
+<text x="60" y="294" text-anchor="end"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">0</text>
+
+
+<path d="M 76 290 C 87.13333333333333 290, 87.13333333333333 290, 98.26666666666667 290 C 109.4 290, 109.4 290, 120.53333333333333 290 C 131.66666666666669 290, 131.66666666666669 290, 142.8 290 C 153.93333333333334 290, 153.93333333333334 290, 165.06666666666666 290 C 176.2 290, 176.2 290, 187.33333333333331 290 C 198.46666666666664 290, 198.46666666666664 290, 209.6 290 C 220.73333333333335 290, 220.73333333333335 290, 231.86666666666667 290 C 243 290, 243 290, 254.13333333333333 290 C 265.26666666666665 290, 265.26666666666665 290, 276.4 290 C 287.5333333333333 290, 287.5333333333333 280, 298.66666666666663 280 C 309.79999999999995 280, 309.79999999999995 290, 320.93333333333334 290 C 332.06666666666666 290, 332.06666666666666 220, 343.2 220 C 354.3333333333333 220, 354.3333333333333 220, 365.46666666666664 220 C 376.6 220, 376.6 130, 387.73333333333335 130 C 398.8666666666667 130, 398.8666666666667 220, 410 220 C 421.1333333333333 220, 421.1333333333333 280, 432.26666666666665 280 C 443.4 280, 443.4 150, 454.5333333333333 150 C 465.66666666666663 150, 465.66666666666663 210, 476.79999999999995 210 C 487.9333333333333 210, 487.9333333333333 260, 499.06666666666666 260 C 510.19999999999993 260, 510.19999999999993 240, 521.3333333333333 240 C 532.4666666666666 240, 532.4666666666666 280, 543.5999999999999 280 C 554.7333333333333 280, 554.7333333333333 290, 565.8666666666667 290 C 577 290, 577 290, 588.1333333333333 290 C 599.2666666666667 290, 599.2666666666667 210, 610.4 210 C 621.5333333333333 210, 621.5333333333333 290, 632.6666666666666 290 C 643.8 290, 643.8 260, 654.9333333333333 260 C 666.0666666666666 260, 666.0666666666666 200, 677.1999999999999 200 C 688.3333333333333 200, 688.3333333333333 290, 699.4666666666667 290 C 710.6 290, 710.6 260, 721.7333333333333 260 C 732.8666666666667 260, 732.8666666666667 290, 744 290 L 744 290 L 76 290 Z" fill="url(#gradient)"/>
+<path d="M 76 290 C 87.13333333333333 290, 87.13333333333333 290, 98.26666666666667 290 C 109.4 290, 109.4 290, 120.53333333333333 290 C 131.66666666666669 290, 131.66666666666669 290, 142.8 290 C 153.93333333333334 290, 153.93333333333334 290, 165.06666666666666 290 C 176.2 290, 176.2 290, 187.33333333333331 290 C 198.46666666666664 290, 198.46666666666664 290, 209.6 290 C 220.73333333333335 290, 220.73333333333335 290, 231.86666666666667 290 C 243 290, 243 290, 254.13333333333333 290 C 265.26666666666665 290, 265.26666666666665 290, 276.4 290 C 287.5333333333333 290, 287.5333333333333 280, 298.66666666666663 280 C 309.79999999999995 280, 309.79999999999995 290, 320.93333333333334 290 C 332.06666666666666 290, 332.06666666666666 220, 343.2 220 C 354.3333333333333 220, 354.3333333333333 220, 365.46666666666664 220 C 376.6 220, 376.6 130, 387.73333333333335 130 C 398.8666666666667 130, 398.8666666666667 220, 410 220 C 421.1333333333333 220, 421.1333333333333 280, 432.26666666666665 280 C 443.4 280, 443.4 150, 454.5333333333333 150 C 465.66666666666663 150, 465.66666666666663 210, 476.79999999999995 210 C 487.9333333333333 210, 487.9333333333333 260, 499.06666666666666 260 C 510.19999999999993 260, 510.19999999999993 240, 521.3333333333333 240 C 532.4666666666666 240, 532.4666666666666 280, 543.5999999999999 280 C 554.7333333333333 280, 554.7333333333333 290, 565.8666666666667 290 C 577 290, 577 290, 588.1333333333333 290 C 599.2666666666667 290, 599.2666666666667 210, 610.4 210 C 621.5333333333333 210, 621.5333333333333 290, 632.6666666666666 290 C 643.8 290, 643.8 260, 654.9333333333333 260 C 666.0666666666666 260, 666.0666666666666 200, 677.1999999999999 200 C 688.3333333333333 200, 688.3333333333333 290, 699.4666666666667 290 C 710.6 290, 710.6 260, 721.7333333333333 260 C 732.8666666666667 260, 732.8666666666667 290, 744 290" fill="none" stroke="#3ddc84"
+stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+<circle cx="387.73333333333335" cy="130" r="9" fill="#ffd60a" opacity="0.15"/>
+<circle cx="387.73333333333335" cy="130" r="4.5" fill="#000000"
+stroke="#ffd60a" stroke-width="2.5"/>
+
+
+
+<text x="76" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">6</text>
+
+<text x="120.53333333333333" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">8</text>
+
+<text x="165.06666666666666" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">10</text>
+
+<text x="209.6" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">12</text>
+
+<text x="254.13333333333333" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">14</text>
+
+<text x="298.66666666666663" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">16</text>
+
+<text x="343.2" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">18</text>
+
+<text x="387.73333333333335" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">20</text>
+
+<text x="432.26666666666665" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">22</text>
+
+<text x="476.79999999999995" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">24</text>
+
+<text x="521.3333333333333" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">26</text>
+
+<text x="565.8666666666667" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">28</text>
+
+<text x="610.4" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">30</text>
+
+<text x="654.9333333333333" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">1</text>
+
+<text x="699.4666666666667" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">3</text>
+
+<text x="744" y="318" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">5</text>
+
+
+<line x1="24" y1="344" x2="796" y2="344"
+stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+
+<text x="24" y="378" fill="#ffd60a" font-size="15"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Current Week <tspan fill="#ffd60a" fill-opacity="0.85" font-weight="400">23 commits</tspan></text>
+
+<text x="330" y="378" fill="#3ddc84" font-size="15"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Last 31 Days <tspan fill="#3ddc84" fill-opacity="0.85" font-weight="400">93 commits</tspan></text>
+
+<text x="590" y="378" fill="#5ec8f8" font-size="15"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Peak Day <tspan fill="#5ec8f8" fill-opacity="0.85" font-weight="400">16 commits</tspan></text>
+
+
+<text x="32" y="418" fill="#ffd60a" font-size="17"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="600">$</text>
+
+<rect
+x="52"
+y="403"
+width="8"
+height="18"
+rx="1.5"
+fill="#ffd60a">
+<animate
+attributeName="opacity"
+values="1;0;1"
+dur="1s"
+repeatCount="indefinite"/>
+</rect>
+
+
 
 </svg>

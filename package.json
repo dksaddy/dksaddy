@@ -3,12 +3,10 @@
   "version": "2.0.0",
   "description": "Generate GitHub Profile SVGs",
   "type": "module",
-  "main": "scripts/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "fetch": "node scripts/fetch.js",
-    "card": "node scripts/generate-card.js",
-    "graph": "node scripts/generate-graph.js",
-    "build": "node scripts/index.js"
+    "fetch": "node src/api/github.js",
+    "build": "node src/index.js"
   },
   "author": "Mohiuddin Sadik",
   "license": "MIT",
