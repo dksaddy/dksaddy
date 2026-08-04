@@ -67,3 +67,13 @@
   
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=dksaddy&radius=16&theme=high-contrast&area=true&order=5&color=F3C623&point=FFF245&area_color=F8EEDF&line=EA2F14&title_color=FFF245&hide_border=true&hide_title=false" height="220" alt="activity-graph graph"  />
 </div>
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/main/assets/stats.svg" width="100%" />
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/main/assets/activity.svg" width="100%" />
+
+</div>
