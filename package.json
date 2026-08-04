@@ -1,0 +1,26 @@
+{
+  "name": "github-profile-stats",
+  "version": "1.0.0",
+  "description": "Generate GitHub profile statistics SVGs using GitHub Actions",
+  "type": "module",
+  "main": "scripts/github.js",
+  "scripts": {
+    "fetch": "node scripts/github.js",
+    "stats": "node scripts/stats.js",
+    "graph": "node scripts/activity.js",
+    "build": "npm run fetch && npm run stats && npm run graph"
+  },
+  "keywords": [
+    "github",
+    "profile",
+    "stats",
+    "svg",
+    "github-actions"
+  ],
+  "author": "Mohiuddin Sadik",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/graphql": "^8.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
