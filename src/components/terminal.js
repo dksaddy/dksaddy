@@ -68,7 +68,7 @@ $ ${command}
 // A left-label / right-value row, e.g. "> Current Streak    18 days"
 export function statRow(x, y, valueX, label, value, color = theme.text) {
     return `
-<text x="${x}" y="${y}" fill="${theme.secondary}" fill-opacity="0.65" font-size="15"
+<text x="${x}" y="${y}" fill="${theme.secondary}" fill-opacity="0.85" font-size="15"
 font-family="${font}">&gt; ${label}</text>
 
 <text x="${valueX}" y="${y}" fill="${color}" font-size="15"
@@ -79,7 +79,7 @@ font-family="${font}" font-weight="700">${value}</text>
 // A stacked label-over-value pair for the two-column card layout.
 export function statBlock(x, y, label, value, color) {
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.6" font-size="14"
+<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.8" font-size="14"
 font-family="${font}">${label}</text>
 
 <text x="${x + textWidth(label, 14) + 12}" y="${y}" fill="${color}" font-size="16"
@@ -90,7 +90,7 @@ font-family="${font}" font-weight="700">${value}</text>
 // A label split across two lines, e.g. ["Total", "Contribution"].
 export function twoLineLabel(x, y, lines, color, lineHeight = 14, fontSize = 13) {
     return lines.map((line, i) => `
-<text x="${x}" y="${y + i * lineHeight}" fill="${color}" fill-opacity="0.55"
+<text x="${x}" y="${y + i * lineHeight}" fill="${color}" fill-opacity="0.85"
 font-size="${fontSize}" font-family="${font}">${line}</text>
 `).join("");
 }
@@ -144,7 +144,7 @@ font-family="${font}" font-weight="700">${text}</text>
 // A small uppercase suffix that trails a value, e.g. "DAYS".
 export function unitLabel(x, y, text, color) {
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.7" font-size="11"
+<text x="${x}" y="${y}" fill="${color}" fill-opacity="1" font-size="11"
 font-family="${font}" letter-spacing="1">${text}</text>
 `;
 }
@@ -152,7 +152,7 @@ font-family="${font}" letter-spacing="1">${text}</text>
 // Fine-print date range under a stat, e.g. "6 July 2025 <> 16 July 2025".
 export function dateRangeLabel(x, y, text, color) {
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.5" font-size="10"
+<text x="${x}" y="${y}" fill="${color}" fill-opacity="1" font-size="10"
 font-family="${font}">${escapeXml(text)}</text>
 `;
 }
