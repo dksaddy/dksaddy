@@ -25,20 +25,20 @@ const width = 820;
 
 const promptY = 26;
 
-const plotTop = 44;
-const plotHeight = 85;
-const plotPaddingX = 66;
+const plotTop = 50;
+const plotHeight = 150;
+const plotPaddingX = 60;
 const plotBottom = plotTop + plotHeight;
 
-const axisLabelGap = 12;
-const dividerGap = 8;
+const axisLabelGap = 20;
+const dividerGap = 15;
 
 const labelX = 24;
 
-const statsRowGap = 14;
+const statsRowGap = 20;
 const statsRowY = plotBottom + axisLabelGap + dividerGap + statsRowGap;
 
-const meterGap = 18;
+const meterGap = 30;
 const meterBoxHeight = 12;
 const meterY = statsRowY + meterGap - meterBoxHeight + 4;
 
@@ -203,7 +203,7 @@ font-family="${font}" font-weight="700">&gt; Peak Day <tspan fill-opacity="0.85"
 
 ${meter.markup}
 <text x="${labelX + 8 + meter.width + 12}" y="${meterY + meterBoxHeight - 2}"
-fill="${theme.yellow}" font-size="13" font-family="${font}" font-weight="700">${currentWeek} commits</text>
+fill="${theme.yellow}" font-size="13" font-family="${font}" font-weight="700"></text>
 
 </svg>
 `;
