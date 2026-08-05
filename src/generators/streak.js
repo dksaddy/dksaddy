@@ -272,3 +272,35 @@ export function getLast365DaysActiveDays() {
     }).length;
 
 }
+
+// Full lifetime span covered by the loaded data — used as the date range
+// for the lifetime stats (Total Contribution, Total Active Days).
+export function getDateRange() {
+
+    const { days } = getData();
+
+    if (!days.length) return { start: null, end: null };
+
+    return {
+        start: days[0].date,
+        end: days[days.length - 1].date
+    };
+
+}
+
+// The rolling 365-day window used by getLast365Days* — used as the date
+// range for the "last year" stats (Last Year, Active Day).
+export function getLast365DaysRange() {
+
+    const today = new Date();
+
+    const start = new Date();
+
+    start.setDate(today.getDate() - 364);
+
+    return {
+        start: start.toISOString().slice(0, 10),
+        end: today.toISOString().slice(0, 10)
+    };
+
+}
