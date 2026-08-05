@@ -3,7 +3,7 @@
 export const theme = {
     background: "#0d1117",
     cardBackground: "#0d1117", // warm dark card used by the stats card
-    border: "#0d1117",
+    border: "#b3fd3c",
 
     yellow: "#ffd60a",
     green: "#3ddc84",
@@ -47,7 +47,7 @@ export function terminalWindow(width, height, bg = theme.background) {
     return `
 <rect width="${width}" height="${height}" fill="${bg}"/>
 <rect width="${width}" height="${height}" fill="none"
-stroke="${theme.border}" stroke-opacity="0.25" stroke-width="1"/>
+stroke="${theme.border}" stroke-opacity="0.0" stroke-width="1"/>
 `;
 }
 

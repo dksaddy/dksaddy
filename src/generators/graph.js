@@ -132,7 +132,7 @@ export default function generateGraph() {
 
         grid += `
 <line x1="${plotPaddingX}" y1="${y}" x2="${width - plotPaddingX}" y2="${y}"
-stroke="${theme.border}" stroke-opacity="0.18" stroke-width="1"/>
+stroke="${theme.border}" stroke-opacity="0.1" stroke-width="1"/>
 
 <text x="${plotPaddingX - 14}" y="${y + 4}" text-anchor="end"
 fill="${theme.yellow}" fill-opacity="0.85" font-size="11" font-family="${font}">${value}</text>
@@ -190,7 +190,7 @@ ${peakMarker}
 ${dayLabels(points)}
 
 <line x1="${labelX}" y1="${dividerY}" x2="${width - labelX}" y2="${dividerY}"
-stroke="${theme.border}" stroke-opacity="0.2" stroke-width="1"/>
+stroke="${theme.border}" stroke-opacity="0.9" stroke-width="1"/>
 
 <text x="${labelX}" y="${statsRowY}" fill="${theme.yellow}" font-size="13"
 font-family="${font}" font-weight="700">&gt; Current Week <tspan fill-opacity="0.85" font-weight="400">${currentWeek} commits</tspan></text>
