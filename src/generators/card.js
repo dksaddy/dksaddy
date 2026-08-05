@@ -25,26 +25,26 @@ import {
 const width = 640;
 
 const colLeftLabelX = 28;
-const colLeftValueX = 180;
+const colLeftValueX = 190;
 
 const colRightLabelX = 380;
 const colRightValueX = 550;
 
-const row1LabelY = 42;
-const row1ValueY = 52;
+const row1LabelY = 35;
+const row1ValueY = 45;
 
-const row2LabelY = 100;
-const row2ValueY = 110;
-const dateRangeY = 138;
+const row2LabelY = 90;
+const row2ValueY = 100;
+const dateRangeY = 125;
 
-const row3LabelY = 168;
-const row3ValueY = 178;
+const row3LabelY = 158;
+const row3ValueY = 168;
 
 const dividerTop = 20;
 const dividerBottom = row3ValueY + 24;
 const dividerX = width / 2;
 
-const timestampY = dividerBottom + 22;
+const timestampY = dividerBottom + 32;
 const bottomPadding = 14;
 const height = timestampY + bottomPadding;
 

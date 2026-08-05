@@ -12,7 +12,7 @@ export const theme = {
     red: "#ff4d4d",
     cyan: "#22d3ee", // used for the value highlight boxes
 
-    text: "#db6262",
+    text: "#3fb2ff",
     secondary: "#5ec8f8",
     muted: "#5ec8f8",
 
