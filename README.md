@@ -68,7 +68,7 @@
 ###
 
 
-<h3 align="left">📊 Statistics and Graph</h3>
+<h3 align="left">📊 Statistics</h3>
 
 <div align="center">
 
