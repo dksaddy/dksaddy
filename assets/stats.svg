@@ -5,7 +5,7 @@ viewBox="0 0 640 272">
 
 <rect width="640" height="272" fill="#0d1117"/>
 <rect width="640" height="272" fill="none"
-stroke="#3aa6d9" stroke-opacity="0.25" stroke-width="1"/>
+stroke="#0d1117" stroke-opacity="0.25" stroke-width="1"/>
 
 
 
@@ -128,7 +128,7 @@ fill="#ffffff" fill-opacity="0.85"/>
 
 <text x="320" y="258" text-anchor="middle"
 fill="#3fb2ff" fill-opacity="0.6" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
-6 Aug 2026 00:28
+6 Aug 2026 00:33
 </text>
 
 </svg>
