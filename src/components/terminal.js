@@ -12,7 +12,7 @@ export const theme = {
     red: "#ff4d4d",
     cyan: "#22d3ee", // used for the value highlight boxes
 
-    text: "#5ec8f8",
+    text: "#db6262",
     secondary: "#5ec8f8",
     muted: "#5ec8f8",
 
@@ -57,7 +57,7 @@ export function terminalPrompt(x, y, command) {
 x="${x}"
 y="${y}"
 fill="${theme.yellow}"
-font-size="15"
+font-size="12"
 font-family="${font}"
 font-weight="600">
 $ ${command}
@@ -68,10 +68,10 @@ $ ${command}
 // A left-label / right-value row, e.g. "> Current Streak    18 days"
 export function statRow(x, y, valueX, label, value, color = theme.text) {
     return `
-<text x="${x}" y="${y}" fill="${theme.secondary}" fill-opacity="0.85" font-size="15"
+<text x="${x}" y="${y}" fill="${theme.secondary}" fill-opacity="0.85" font-size="12"
 font-family="${font}">&gt; ${label}</text>
 
-<text x="${valueX}" y="${y}" fill="${color}" font-size="15"
+<text x="${valueX}" y="${y}" fill="${color}" font-size="12"
 font-family="${font}" font-weight="700">${value}</text>
 `;
 }
@@ -79,10 +79,10 @@ font-family="${font}" font-weight="700">${value}</text>
 // A stacked label-over-value pair for the two-column card layout.
 export function statBlock(x, y, label, value, color) {
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.8" font-size="14"
+<text x="${x}" y="${y}" fill="${color}" fill-opacity="0.8" font-size="10"
 font-family="${font}">${label}</text>
 
-<text x="${x + textWidth(label, 14) + 12}" y="${y}" fill="${color}" font-size="16"
+<text x="${x + textWidth(label, 14) + 12}" y="${y}" fill="${color}" font-size="12"
 font-family="${font}" font-weight="700">${value}</text>
 `;
 }
@@ -144,7 +144,7 @@ font-family="${font}" font-weight="700">${text}</text>
 // A small uppercase suffix that trails a value, e.g. "DAYS".
 export function unitLabel(x, y, text, color) {
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="1" font-size="11"
+<text x="${x}" y="${y}" fill="${color}" fill-opacity="1" font-size="9"
 font-family="${font}" letter-spacing="1">${text}</text>
 `;
 }

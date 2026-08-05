@@ -19,7 +19,7 @@ stroke="#3aa6d9" stroke-opacity="0.25" stroke-width="1"/>
 x="32"
 y="26"
 fill="#ffd60a"
-font-size="15"
+font-size="12"
 font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
 font-weight="600">
 $ github activity --last 31

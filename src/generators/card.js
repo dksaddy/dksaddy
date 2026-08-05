@@ -25,10 +25,10 @@ import {
 const width = 640;
 
 const colLeftLabelX = 28;
-const colLeftValueX = 170;
+const colLeftValueX = 180;
 
-const colRightLabelX = 340;
-const colRightValueX = 470;
+const colRightLabelX = 380;
+const colRightValueX = 550;
 
 const row1LabelY = 42;
 const row1ValueY = 52;
@@ -130,7 +130,7 @@ stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
 fill="#ffffff" fill-opacity="0.85"/>
 
 <text x="${dividerX}" y="${timestampY}" text-anchor="middle"
-fill="${theme.text}" fill-opacity="0.55" font-size="12" font-family="${font}">
+fill="${theme.text}" fill-opacity="0.6" font-size="12" font-family="${font}">
 ${generated}
 </text>
 
