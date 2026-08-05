@@ -3,7 +3,7 @@
 export const theme = {
     background: "#0d1117",
     cardBackground: "#0d1117", // warm dark card used by the stats card
-    border: "#3aa6d9",
+    border: "#0d1117",
 
     yellow: "#ffd60a",
     green: "#3ddc84",
