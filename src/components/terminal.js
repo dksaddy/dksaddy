@@ -1,7 +1,7 @@
 // Shared visual language for every generated terminal-style SVG card.
 
 export const theme = {
-    background: "#000000",
+    background: "#0d1117",
     cardBackground: "#0d1117", // warm dark card used by the stats card
     border: "#3aa6d9",
 
