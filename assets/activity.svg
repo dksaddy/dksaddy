@@ -1,6 +1,6 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="448"
-viewBox="0 0 820 448">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="201"
+viewBox="0 0 820 201">
 
 <defs>
 <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="1">
@@ -10,27 +10,16 @@ viewBox="0 0 820 448">
 </defs>
 
 
-<rect
-width="820"
-height="448"
-rx="16"
-fill="#000000"/>
-
-<rect
-width="820"
-height="448"
-rx="16"
-fill="none"
-stroke="#3aa6d9"
-stroke-opacity="0.35"
-stroke-width="1"/>
+<rect width="820" height="201" fill="#000000"/>
+<rect width="820" height="201" fill="none"
+stroke="#3aa6d9" stroke-opacity="0.25" stroke-width="1"/>
 
 
 <text
 x="32"
-y="46"
+y="26"
 fill="#ffd60a"
-font-size="17"
+font-size="15"
 font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
 font-weight="600">
 $ github activity --last 31
@@ -38,126 +27,323 @@ $ github activity --last 31
 
 
 
-<line x1="76" y1="90" x2="744" y2="90"
-stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="66" y1="44" x2="754" y2="44"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="60" y="94" text-anchor="end"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">20</text>
+<text x="52" y="48" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">16</text>
 
-<line x1="76" y1="140" x2="744" y2="140"
-stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="66" y1="54.625" x2="754" y2="54.625"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="60" y="144" text-anchor="end"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">15</text>
+<text x="52" y="58.625" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">14</text>
 
-<line x1="76" y1="190" x2="744" y2="190"
-stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="66" y1="65.25" x2="754" y2="65.25"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="60" y="194" text-anchor="end"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">10</text>
+<text x="52" y="69.25" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">12</text>
 
-<line x1="76" y1="240" x2="744" y2="240"
-stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="66" y1="75.875" x2="754" y2="75.875"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="60" y="244" text-anchor="end"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">5</text>
+<text x="52" y="79.875" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">10</text>
 
-<line x1="76" y1="290" x2="744" y2="290"
-stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
+<line x1="66" y1="86.5" x2="754" y2="86.5"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="60" y="294" text-anchor="end"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">0</text>
+<text x="52" y="90.5" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">8</text>
+
+<line x1="66" y1="97.125" x2="754" y2="97.125"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
+
+<text x="52" y="101.125" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">6</text>
+
+<line x1="66" y1="107.75" x2="754" y2="107.75"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
+
+<text x="52" y="111.75" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">4</text>
+
+<line x1="66" y1="118.375" x2="754" y2="118.375"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
+
+<text x="52" y="122.375" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">2</text>
+
+<line x1="66" y1="129" x2="754" y2="129"
+stroke="#3aa6d9" stroke-opacity="0.18" stroke-width="1"/>
+
+<text x="52" y="133" text-anchor="end"
+fill="#ffd60a" fill-opacity="0.85" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">0</text>
 
 
-<path d="M 76 290 C 87.13333333333333 290, 87.13333333333333 290, 98.26666666666667 290 C 109.4 290, 109.4 290, 120.53333333333333 290 C 131.66666666666669 290, 131.66666666666669 290, 142.8 290 C 153.93333333333334 290, 153.93333333333334 290, 165.06666666666666 290 C 176.2 290, 176.2 290, 187.33333333333331 290 C 198.46666666666664 290, 198.46666666666664 290, 209.6 290 C 220.73333333333335 290, 220.73333333333335 290, 231.86666666666667 290 C 243 290, 243 290, 254.13333333333333 290 C 265.26666666666665 290, 265.26666666666665 290, 276.4 290 C 287.5333333333333 290, 287.5333333333333 280, 298.66666666666663 280 C 309.79999999999995 280, 309.79999999999995 290, 320.93333333333334 290 C 332.06666666666666 290, 332.06666666666666 220, 343.2 220 C 354.3333333333333 220, 354.3333333333333 220, 365.46666666666664 220 C 376.6 220, 376.6 130, 387.73333333333335 130 C 398.8666666666667 130, 398.8666666666667 220, 410 220 C 421.1333333333333 220, 421.1333333333333 280, 432.26666666666665 280 C 443.4 280, 443.4 150, 454.5333333333333 150 C 465.66666666666663 150, 465.66666666666663 210, 476.79999999999995 210 C 487.9333333333333 210, 487.9333333333333 260, 499.06666666666666 260 C 510.19999999999993 260, 510.19999999999993 240, 521.3333333333333 240 C 532.4666666666666 240, 532.4666666666666 280, 543.5999999999999 280 C 554.7333333333333 280, 554.7333333333333 290, 565.8666666666667 290 C 577 290, 577 290, 588.1333333333333 290 C 599.2666666666667 290, 599.2666666666667 210, 610.4 210 C 621.5333333333333 210, 621.5333333333333 290, 632.6666666666666 290 C 643.8 290, 643.8 260, 654.9333333333333 260 C 666.0666666666666 260, 666.0666666666666 200, 677.1999999999999 200 C 688.3333333333333 200, 688.3333333333333 290, 699.4666666666667 290 C 710.6 290, 710.6 260, 721.7333333333333 260 C 732.8666666666667 260, 732.8666666666667 290, 744 290 L 744 290 L 76 290 Z" fill="url(#gradient)"/>
-<path d="M 76 290 C 87.13333333333333 290, 87.13333333333333 290, 98.26666666666667 290 C 109.4 290, 109.4 290, 120.53333333333333 290 C 131.66666666666669 290, 131.66666666666669 290, 142.8 290 C 153.93333333333334 290, 153.93333333333334 290, 165.06666666666666 290 C 176.2 290, 176.2 290, 187.33333333333331 290 C 198.46666666666664 290, 198.46666666666664 290, 209.6 290 C 220.73333333333335 290, 220.73333333333335 290, 231.86666666666667 290 C 243 290, 243 290, 254.13333333333333 290 C 265.26666666666665 290, 265.26666666666665 290, 276.4 290 C 287.5333333333333 290, 287.5333333333333 280, 298.66666666666663 280 C 309.79999999999995 280, 309.79999999999995 290, 320.93333333333334 290 C 332.06666666666666 290, 332.06666666666666 220, 343.2 220 C 354.3333333333333 220, 354.3333333333333 220, 365.46666666666664 220 C 376.6 220, 376.6 130, 387.73333333333335 130 C 398.8666666666667 130, 398.8666666666667 220, 410 220 C 421.1333333333333 220, 421.1333333333333 280, 432.26666666666665 280 C 443.4 280, 443.4 150, 454.5333333333333 150 C 465.66666666666663 150, 465.66666666666663 210, 476.79999999999995 210 C 487.9333333333333 210, 487.9333333333333 260, 499.06666666666666 260 C 510.19999999999993 260, 510.19999999999993 240, 521.3333333333333 240 C 532.4666666666666 240, 532.4666666666666 280, 543.5999999999999 280 C 554.7333333333333 280, 554.7333333333333 290, 565.8666666666667 290 C 577 290, 577 290, 588.1333333333333 290 C 599.2666666666667 290, 599.2666666666667 210, 610.4 210 C 621.5333333333333 210, 621.5333333333333 290, 632.6666666666666 290 C 643.8 290, 643.8 260, 654.9333333333333 260 C 666.0666666666666 260, 666.0666666666666 200, 677.1999999999999 200 C 688.3333333333333 200, 688.3333333333333 290, 699.4666666666667 290 C 710.6 290, 710.6 260, 721.7333333333333 260 C 732.8666666666667 260, 732.8666666666667 290, 744 290" fill="none" stroke="#3ddc84"
+<path d="M 66 129 C 77.46666666666667 129, 77.46666666666667 129, 88.93333333333334 129 C 100.4 129, 100.4 129, 111.86666666666667 129 C 123.33333333333334 129, 123.33333333333334 129, 134.8 129 C 146.26666666666668 129, 146.26666666666668 129, 157.73333333333335 129 C 169.20000000000002 129, 169.20000000000002 129, 180.66666666666669 129 C 192.13333333333333 129, 192.13333333333333 129, 203.6 129 C 215.06666666666666 129, 215.06666666666666 129, 226.53333333333333 129 C 238 129, 238 129, 249.46666666666667 129 C 260.93333333333334 129, 260.93333333333334 129, 272.4 129 C 283.8666666666667 129, 283.8666666666667 123.6875, 295.33333333333337 123.6875 C 306.8 123.6875, 306.8 129, 318.26666666666665 129 C 329.73333333333335 129, 329.73333333333335 91.8125, 341.2 91.8125 C 352.66666666666663 91.8125, 352.66666666666663 91.8125, 364.1333333333333 91.8125 C 375.6 91.8125, 375.6 44, 387.06666666666666 44 C 398.5333333333333 44, 398.5333333333333 91.8125, 410 91.8125 C 421.4666666666667 91.8125, 421.4666666666667 123.6875, 432.93333333333334 123.6875 C 444.4 123.6875, 444.4 54.625, 455.8666666666667 54.625 C 467.33333333333337 54.625, 467.33333333333337 86.5, 478.8 86.5 C 490.26666666666665 86.5, 490.26666666666665 113.0625, 501.73333333333335 113.0625 C 513.2 113.0625, 513.2 102.4375, 524.6666666666667 102.4375 C 536.1333333333334 102.4375, 536.1333333333334 123.6875, 547.6 123.6875 C 559.0666666666666 123.6875, 559.0666666666666 129, 570.5333333333333 129 C 582 129, 582 129, 593.4666666666667 129 C 604.9333333333334 129, 604.9333333333334 86.5, 616.4 86.5 C 627.8666666666667 86.5, 627.8666666666667 129, 639.3333333333334 129 C 650.8 129, 650.8 113.0625, 662.2666666666667 113.0625 C 673.7333333333333 113.0625, 673.7333333333333 81.1875, 685.2 81.1875 C 696.6666666666667 81.1875, 696.6666666666667 129, 708.1333333333333 129 C 719.6 129, 719.6 113.0625, 731.0666666666667 113.0625 C 742.5333333333333 113.0625, 742.5333333333333 118.375, 754 118.375 L 754 129 L 66 129 Z" fill="url(#gradient)"/>
+<path d="M 66 129 C 77.46666666666667 129, 77.46666666666667 129, 88.93333333333334 129 C 100.4 129, 100.4 129, 111.86666666666667 129 C 123.33333333333334 129, 123.33333333333334 129, 134.8 129 C 146.26666666666668 129, 146.26666666666668 129, 157.73333333333335 129 C 169.20000000000002 129, 169.20000000000002 129, 180.66666666666669 129 C 192.13333333333333 129, 192.13333333333333 129, 203.6 129 C 215.06666666666666 129, 215.06666666666666 129, 226.53333333333333 129 C 238 129, 238 129, 249.46666666666667 129 C 260.93333333333334 129, 260.93333333333334 129, 272.4 129 C 283.8666666666667 129, 283.8666666666667 123.6875, 295.33333333333337 123.6875 C 306.8 123.6875, 306.8 129, 318.26666666666665 129 C 329.73333333333335 129, 329.73333333333335 91.8125, 341.2 91.8125 C 352.66666666666663 91.8125, 352.66666666666663 91.8125, 364.1333333333333 91.8125 C 375.6 91.8125, 375.6 44, 387.06666666666666 44 C 398.5333333333333 44, 398.5333333333333 91.8125, 410 91.8125 C 421.4666666666667 91.8125, 421.4666666666667 123.6875, 432.93333333333334 123.6875 C 444.4 123.6875, 444.4 54.625, 455.8666666666667 54.625 C 467.33333333333337 54.625, 467.33333333333337 86.5, 478.8 86.5 C 490.26666666666665 86.5, 490.26666666666665 113.0625, 501.73333333333335 113.0625 C 513.2 113.0625, 513.2 102.4375, 524.6666666666667 102.4375 C 536.1333333333334 102.4375, 536.1333333333334 123.6875, 547.6 123.6875 C 559.0666666666666 123.6875, 559.0666666666666 129, 570.5333333333333 129 C 582 129, 582 129, 593.4666666666667 129 C 604.9333333333334 129, 604.9333333333334 86.5, 616.4 86.5 C 627.8666666666667 86.5, 627.8666666666667 129, 639.3333333333334 129 C 650.8 129, 650.8 113.0625, 662.2666666666667 113.0625 C 673.7333333333333 113.0625, 673.7333333333333 81.1875, 685.2 81.1875 C 696.6666666666667 81.1875, 696.6666666666667 129, 708.1333333333333 129 C 719.6 129, 719.6 113.0625, 731.0666666666667 113.0625 C 742.5333333333333 113.0625, 742.5333333333333 118.375, 754 118.375" fill="none" stroke="#3ddc84"
 stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 
-<circle cx="387.73333333333335" cy="130" r="9" fill="#ffd60a" opacity="0.15"/>
-<circle cx="387.73333333333335" cy="130" r="4.5" fill="#000000"
-stroke="#ffd60a" stroke-width="2.5"/>
+<circle cx="295.33333333333337" cy="123.6875" r="2.1" fill="#ffd60a"/>
+
+<circle cx="341.2" cy="91.8125" r="2.1" fill="#ffd60a"/>
+
+<circle cx="364.1333333333333" cy="91.8125" r="2.1" fill="#ffd60a"/>
+
+<circle cx="387.06666666666666" cy="44" r="2.1" fill="#ffd60a"/>
+
+<circle cx="410" cy="91.8125" r="2.1" fill="#ffd60a"/>
+
+<circle cx="432.93333333333334" cy="123.6875" r="2.1" fill="#ffd60a"/>
+
+<circle cx="455.8666666666667" cy="54.625" r="2.1" fill="#ffd60a"/>
+
+<circle cx="478.8" cy="86.5" r="2.1" fill="#ffd60a"/>
+
+<circle cx="501.73333333333335" cy="113.0625" r="2.1" fill="#ffd60a"/>
+
+<circle cx="524.6666666666667" cy="102.4375" r="2.1" fill="#ffd60a"/>
+
+<circle cx="547.6" cy="123.6875" r="2.1" fill="#ffd60a"/>
+
+<circle cx="616.4" cy="86.5" r="2.1" fill="#ffd60a"/>
+
+<circle cx="662.2666666666667" cy="113.0625" r="2.1" fill="#ffd60a"/>
+
+<circle cx="685.2" cy="81.1875" r="2.1" fill="#ffd60a"/>
+
+<circle cx="731.0666666666667" cy="113.0625" r="2.1" fill="#ffd60a"/>
+
+<circle cx="754" cy="118.375" r="2.1" fill="#ffd60a"/>
+
+
+<circle cx="387.06666666666666" cy="44" r="7" fill="#ffd60a" opacity="0.15"/>
+<circle cx="387.06666666666666" cy="44" r="3.3" fill="#000000"
+stroke="#ffd60a" stroke-width="2"/>
+<text x="387.06666666666666" y="34" text-anchor="middle"
+fill="#ffd60a" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">
+16
+</text>
 
 
 
-<text x="76" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">6</text>
+<text x="66" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+6
+</text>
 
-<text x="120.53333333333333" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">8</text>
+<text x="88.93333333333334" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+7
+</text>
 
-<text x="165.06666666666666" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">10</text>
+<text x="111.86666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+8
+</text>
 
-<text x="209.6" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">12</text>
+<text x="134.8" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+9
+</text>
 
-<text x="254.13333333333333" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">14</text>
+<text x="157.73333333333335" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+10
+</text>
 
-<text x="298.66666666666663" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">16</text>
+<text x="180.66666666666669" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+11
+</text>
 
-<text x="343.2" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">18</text>
+<text x="203.6" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+12
+</text>
 
-<text x="387.73333333333335" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">20</text>
+<text x="226.53333333333333" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+13
+</text>
 
-<text x="432.26666666666665" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">22</text>
+<text x="249.46666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+14
+</text>
 
-<text x="476.79999999999995" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">24</text>
+<text x="272.4" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+15
+</text>
 
-<text x="521.3333333333333" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">26</text>
+<text x="295.33333333333337" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+16
+</text>
 
-<text x="565.8666666666667" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">28</text>
+<text x="318.26666666666665" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+17
+</text>
 
-<text x="610.4" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">30</text>
+<text x="341.2" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+18
+</text>
 
-<text x="654.9333333333333" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">1</text>
+<text x="364.1333333333333" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+19
+</text>
 
-<text x="699.4666666666667" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">3</text>
+<text x="387.06666666666666" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+20
+</text>
 
-<text x="744" y="318" text-anchor="middle"
-fill="#5ec8f8" fill-opacity="0.6" font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">5</text>
+<text x="410" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+21
+</text>
+
+<text x="432.93333333333334" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+22
+</text>
+
+<text x="455.8666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+23
+</text>
+
+<text x="478.8" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+24
+</text>
+
+<text x="501.73333333333335" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+25
+</text>
+
+<text x="524.6666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+26
+</text>
+
+<text x="547.6" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+27
+</text>
+
+<text x="570.5333333333333" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+28
+</text>
+
+<text x="593.4666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+29
+</text>
+
+<text x="616.4" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+30
+</text>
+
+<text x="639.3333333333334" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+31
+</text>
+
+<text x="662.2666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+1
+</text>
+
+<text x="685.2" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+2
+</text>
+
+<text x="708.1333333333333" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+3
+</text>
+
+<text x="731.0666666666667" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+4
+</text>
+
+<text x="754" y="141" text-anchor="middle"
+fill="#ffd60a" fill-opacity="0.85" font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+5
+</text>
 
 
-<line x1="24" y1="344" x2="796" y2="344"
+<line x1="24" y1="149" x2="796" y2="149"
 stroke="#3aa6d9" stroke-opacity="0.2" stroke-width="1"/>
 
-<text x="24" y="378" fill="#ffd60a" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Current Week <tspan fill="#ffd60a" fill-opacity="0.85" font-weight="400">23 commits</tspan></text>
+<text x="24" y="163" fill="#ffd60a" font-size="13"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Current Week <tspan fill-opacity="0.85" font-weight="400">17 commits</tspan></text>
 
-<text x="330" y="378" fill="#3ddc84" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Last 31 Days <tspan fill="#3ddc84" fill-opacity="0.85" font-weight="400">93 commits</tspan></text>
+<text x="330" y="163" fill="#3ddc84" font-size="13"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Last 31 Days <tspan fill-opacity="0.85" font-weight="400">95 commits</tspan></text>
 
-<text x="590" y="378" fill="#5ec8f8" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Peak Day <tspan fill="#5ec8f8" fill-opacity="0.85" font-weight="400">16 commits</tspan></text>
+<text x="590" y="163" fill="#5ec8f8" font-size="13"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">&gt; Peak Day <tspan fill-opacity="0.85" font-weight="400">32 commits</tspan></text>
 
 
-<text x="32" y="418" fill="#ffd60a" font-size="17"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="600">$</text>
-
-<rect
-x="52"
-y="403"
-width="8"
-height="18"
-rx="1.5"
-fill="#ffd60a">
-<animate
-attributeName="opacity"
-values="1;0;1"
-dur="1s"
-repeatCount="indefinite"/>
+<rect x="32" y="173" width="8" height="12" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.000s" repeatCount="indefinite"/>
 </rect>
 
+<rect x="43" y="173" width="8" height="12" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.045s" repeatCount="indefinite"/>
+</rect>
 
+<rect x="54" y="173" width="8" height="12" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.090s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="65" y="173" width="8" height="12" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.135s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="76" y="173" width="8" height="12" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.180s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="87" y="173" width="8" height="12" fill="#ffd60a">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.225s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="98" y="173" width="8" height="12" fill="#ffd60a">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.270s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="109" y="173" width="8" height="12" fill="#ff4d4d">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.315s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="120" y="173" width="8" height="12" fill="#ff4d4d">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.360s" repeatCount="indefinite"/>
+</rect>
+
+<text x="140" y="183"
+fill="#ffd60a" font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">17 commits</text>
 
 </svg>

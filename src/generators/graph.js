@@ -11,73 +11,58 @@ import {
 import {
     terminalWindow,
     terminalPrompt,
-    closingPrompt,
+    rpmMeter,
     theme,
     font
 } from "../components/terminal.js";
 
 // ---- layout -----------------------------------------------------------
+// Compact, flat (no border radius) layout — every day gets an x-axis
+// label so the chart reads like a real terminal readout rather than a
+// sampled sparkline.
 
 const width = 820;
 
-const promptY = 46;
+const promptY = 26;
 
-const plotTop = 90;
-const plotHeight = 200;
-const plotPaddingX = 76;
+const plotTop = 44;
+const plotHeight = 85;
+const plotPaddingX = 66;
 const plotBottom = plotTop + plotHeight;
 
-const axisLabelGap = 28;
-const dividerGap = 26;
+const axisLabelGap = 12;
+const dividerGap = 8;
 
 const labelX = 24;
 
-const statsRowGap = 34;
+const statsRowGap = 14;
 const statsRowY = plotBottom + axisLabelGap + dividerGap + statsRowGap;
 
-const closingGap = 40;
-const closingY = statsRowY + closingGap;
+const meterGap = 18;
+const meterBoxHeight = 12;
+const meterY = statsRowY + meterGap - meterBoxHeight + 4;
 
-const bottomPadding = 30;
-const height = closingY + bottomPadding;
+const bottomPadding = 16;
+const height = meterY + meterBoxHeight + bottomPadding;
 
 const axisLabelY = plotBottom + axisLabelGap;
 const dividerY = axisLabelY + dividerGap;
 
 // ---- axis scaling ---------------------------------------------------------
-// A "nice numbers" tick calculation so the y-axis reads in clean, round
-// steps instead of whatever fraction a naive division happens to produce.
+// Y-axis always steps in units of 2 (per the reference design). If the
+// data ever gets large enough that a step of 2 would produce a cluttered
+// number of gridlines, the step doubles until the tick count is sane.
 
-function niceNumber(range, round) {
-    const exponent = Math.floor(Math.log10(range));
-    const fraction = range / Math.pow(10, exponent);
+function computeYAxis(max) {
+    let step = 2;
+    let niceMax = Math.max(2, Math.ceil(max / step) * step);
 
-    let niceFraction;
-
-    if (round) {
-        if (fraction < 1.5) niceFraction = 1;
-        else if (fraction < 3) niceFraction = 2;
-        else if (fraction < 7) niceFraction = 5;
-        else niceFraction = 10;
-    } else {
-        if (fraction <= 1) niceFraction = 1;
-        else if (fraction <= 2) niceFraction = 2;
-        else if (fraction <= 5) niceFraction = 5;
-        else niceFraction = 10;
+    while (niceMax / step > 8) {
+        step += 2;
+        niceMax = Math.ceil(max / step) * step;
     }
 
-    return niceFraction * Math.pow(10, exponent);
-}
-
-function niceScale(max, maxTicks = 4) {
-    if (max <= 0) return { niceMax: maxTicks, step: 1, tickCount: maxTicks };
-
-    const range = niceNumber(max, false);
-    const step = niceNumber(range / maxTicks, true) || 1;
-    const niceMax = Math.ceil(max / step) * step;
-    const tickCount = Math.round(niceMax / step);
-
-    return { niceMax, step, tickCount };
+    return { niceMax, step, tickCount: niceMax / step };
 }
 
 // ---- data ---------------------------------------------------------------
@@ -89,7 +74,7 @@ function generateGraphData() {
 
     const graphWidth = width - plotPaddingX * 2;
     const max = Math.max(...last31.map(d => d.contributionCount), 1);
-    const { niceMax, step, tickCount } = niceScale(max);
+    const { niceMax, step, tickCount } = computeYAxis(max);
 
     const stepX = graphWidth / (last31.length - 1);
 
@@ -119,18 +104,14 @@ function smoothPath(points) {
     return d;
 }
 
-// Day-of-month labels under every other point, e.g. 5, 7, 9 …
+// Every day gets a label — no skipping.
 function dayLabels(points) {
-    return points.map((p, index) => {
-        if (index % 2 !== 0) return "";
-
-        const label = new Date(p.date).getDate();
-
-        return `
+    return points.map(p => `
 <text x="${p.x}" y="${axisLabelY}" text-anchor="middle"
-fill="${theme.muted}" fill-opacity="0.6" font-size="11" font-family="${font}">${label}</text>
-`;
-    }).join("");
+fill="${theme.yellow}" fill-opacity="0.85" font-size="10" font-family="${font}">
+${new Date(p.date).getDate()}
+</text>
+`).join("");
 }
 
 export default function generateGraph() {
@@ -142,7 +123,7 @@ export default function generateGraph() {
     area += ` L ${points[points.length - 1].x} ${plotBottom}`;
     area += ` L ${points[0].x} ${plotBottom} Z`;
 
-    // Horizontal grid — one line per nice tick (0, step, 2*step … niceMax).
+    // Horizontal grid, step of 2 (or wider if the data demands it).
     let grid = "";
 
     for (let i = 0; i <= tickCount; i++) {
@@ -151,25 +132,38 @@ export default function generateGraph() {
 
         grid += `
 <line x1="${plotPaddingX}" y1="${y}" x2="${width - plotPaddingX}" y2="${y}"
-stroke="${theme.border}" stroke-opacity="0.2" stroke-width="1"/>
+stroke="${theme.border}" stroke-opacity="0.18" stroke-width="1"/>
 
-<text x="${plotPaddingX - 16}" y="${y + 4}" text-anchor="end"
-fill="${theme.muted}" fill-opacity="0.6" font-size="11" font-family="${font}">${value}</text>
+<text x="${plotPaddingX - 14}" y="${y + 4}" text-anchor="end"
+fill="${theme.yellow}" fill-opacity="0.85" font-size="11" font-family="${font}">${value}</text>
 `;
     }
 
-    // Single accent dot on the peak day.
+    // A dot on every day with at least one commit.
+    const dots = points
+        .filter(p => p.value > 0)
+        .map(p => `
+<circle cx="${p.x}" cy="${p.y}" r="2.1" fill="${theme.yellow}"/>
+`).join("");
+
+    // Peak day gets a bigger ring plus its commit count printed above it.
     const peakPoint = points.reduce((a, b) => (b.value > a.value ? b : a));
 
-    const peakDot = `
-<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="9" fill="${theme.graphGlow}" opacity="0.15"/>
-<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="4.5" fill="${theme.background}"
-stroke="${theme.graphGlow}" stroke-width="2.5"/>
+    const peakMarker = `
+<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="7" fill="${theme.yellow}" opacity="0.15"/>
+<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="3.3" fill="${theme.background}"
+stroke="${theme.yellow}" stroke-width="2"/>
+<text x="${peakPoint.x}" y="${peakPoint.y - 10}" text-anchor="middle"
+fill="${theme.yellow}" font-size="11" font-family="${font}" font-weight="700">
+${peakPoint.value}
+</text>
 `;
 
     const currentWeek = getCurrentWeekContributions();
     const last31Days = getLast31DaysContributions();
     const peakDay = getPeakDayContribution();
+
+    const meter = rpmMeter(labelX + 8, meterY, currentWeek, { boxHeight: meterBoxHeight });
 
     const svg = `
 <svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"
@@ -190,23 +184,26 @@ ${grid}
 <path d="${area}" fill="url(#gradient)"/>
 <path d="${linePath}" fill="none" stroke="${theme.graph}"
 stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-${peakDot}
+${dots}
+${peakMarker}
 
 ${dayLabels(points)}
 
 <line x1="${labelX}" y1="${dividerY}" x2="${width - labelX}" y2="${dividerY}"
 stroke="${theme.border}" stroke-opacity="0.2" stroke-width="1"/>
 
-<text x="${labelX}" y="${statsRowY}" fill="${theme.yellow}" font-size="15"
-font-family="${font}" font-weight="700">&gt; Current Week <tspan fill="${theme.yellow}" fill-opacity="0.85" font-weight="400">${currentWeek} commits</tspan></text>
+<text x="${labelX}" y="${statsRowY}" fill="${theme.yellow}" font-size="13"
+font-family="${font}" font-weight="700">&gt; Current Week <tspan fill-opacity="0.85" font-weight="400">${currentWeek} commits</tspan></text>
 
-<text x="330" y="${statsRowY}" fill="${theme.green}" font-size="15"
-font-family="${font}" font-weight="700">&gt; Last 31 Days <tspan fill="${theme.green}" fill-opacity="0.85" font-weight="400">${last31Days} commits</tspan></text>
+<text x="330" y="${statsRowY}" fill="${theme.green}" font-size="13"
+font-family="${font}" font-weight="700">&gt; Last 31 Days <tspan fill-opacity="0.85" font-weight="400">${last31Days} commits</tspan></text>
 
-<text x="590" y="${statsRowY}" fill="${theme.blue}" font-size="15"
-font-family="${font}" font-weight="700">&gt; Peak Day <tspan fill="${theme.blue}" fill-opacity="0.85" font-weight="400">${peakDay} commits</tspan></text>
+<text x="590" y="${statsRowY}" fill="${theme.blue}" font-size="13"
+font-family="${font}" font-weight="700">&gt; Peak Day <tspan fill-opacity="0.85" font-weight="400">${peakDay} commits</tspan></text>
 
-${closingPrompt(labelX + 8, closingY)}
+${meter.markup}
+<text x="${labelX + 8 + meter.width + 12}" y="${meterY + meterBoxHeight - 2}"
+fill="${theme.yellow}" font-size="13" font-family="${font}" font-weight="700">${currentWeek} commits</text>
 
 </svg>
 `;

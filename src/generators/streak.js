@@ -122,3 +122,27 @@ export function getLast31DaysContributions() {
 export function getPeakDayContribution() {
     return Math.max(...days.map(day => day.contributionCount));
 }
+
+export function getLast365DaysContributions() {
+    const today = new Date();
+    const start = new Date();
+    start.setDate(today.getDate() - 364); // 365-day rolling window, inclusive of today
+
+    return days
+        .filter(day => {
+            const date = new Date(day.date);
+            return date >= start && date <= today;
+        })
+        .reduce((sum, day) => sum + day.contributionCount, 0);
+}
+
+export function getLast365DaysActiveDays() {
+    const today = new Date();
+    const start = new Date();
+    start.setDate(today.getDate() - 364);
+
+    return days.filter(day => {
+        const date = new Date(day.date);
+        return date >= start && date <= today && day.contributionCount > 0;
+    }).length;
+}

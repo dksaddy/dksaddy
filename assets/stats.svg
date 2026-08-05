@@ -1,89 +1,114 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="326"
-viewBox="0 0 560 326">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="238"
+viewBox="0 0 640 238">
 
 
-<rect
-width="560"
-height="326"
-rx="16"
-fill="#000000"/>
-
-<rect
-width="560"
-height="326"
-rx="16"
-fill="none"
-stroke="#3aa6d9"
-stroke-opacity="0.35"
-stroke-width="1"/>
+<rect width="640" height="238" fill="#2a231e"/>
+<rect width="640" height="238" fill="none"
+stroke="#3aa6d9" stroke-opacity="0.25" stroke-width="1"/>
 
 
-<text
-x="32"
-y="46"
-fill="#ffd60a"
-font-size="17"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
-font-weight="600">
-$ github stats
+
+<text x="28" y="42" fill="#ff9f43" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Total</text>
+
+<text x="28" y="56" fill="#ff9f43" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Contribution</text>
+
+
+<text x="170" y="52" fill="#ff9f43" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">666</text>
+
+
+
+<text x="340" y="42" fill="#ff9f43" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Last</text>
+
+<text x="340" y="56" fill="#ff9f43" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Year</text>
+
+
+<rect x="470" y="30.42" width="48.485" height="31.38"
+fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+
+<text x="477" y="52" fill="#ff9f43" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">270</text>
+
+
+
+<text x="28" y="100" fill="#3ddc84" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Current</text>
+
+<text x="28" y="114" fill="#3ddc84" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Streak</text>
+
+
+<rect x="170" y="88.42" width="25.494999999999997" height="31.38"
+fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+
+<text x="177" y="110" fill="#3ddc84" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">2</text>
+
+
+<text x="205.495" y="110" fill="#3ddc84" fill-opacity="0.7" font-size="11"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" letter-spacing="1">DAYS</text>
+
+
+
+<text x="340" y="100" fill="#3ddc84" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Longest</text>
+
+<text x="340" y="114" fill="#3ddc84" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Streak</text>
+
+
+<text x="470" y="110" fill="#3ddc84" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">12</text>
+
+
+<text x="502.99" y="110" fill="#3ddc84" fill-opacity="0.7" font-size="11"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" letter-spacing="1">DAYS</text>
+
+
+<text x="340" y="138" fill="#3ddc84" fill-opacity="0.5" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">8 April 2024 &lt;&gt; 19 April 2024</text>
+
+
+
+<text x="28" y="168" fill="#ffd60a" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Total Active</text>
+
+<text x="28" y="182" fill="#ffd60a" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Days</text>
+
+
+<text x="170" y="178" fill="#ffd60a" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">133</text>
+
+
+
+<text x="340" y="168" fill="#5ec8f8" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Active</text>
+
+<text x="340" y="182" fill="#5ec8f8" fill-opacity="0.55"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Day</text>
+
+
+<rect x="470" y="156.42000000000002" width="36.989999999999995" height="31.38"
+fill="none" stroke="#22d3ee" stroke-width="1.5"/>
+
+<text x="477" y="178" fill="#5ec8f8" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">62</text>
+
+
+<line x1="320" y1="20" x2="320" y2="202"
+stroke="#ffffff" stroke-opacity="0.5" stroke-width="1.5"/>
+<rect x="316" y="202" width="8" height="8"
+fill="#ffffff" fill-opacity="0.85"/>
+
+<text x="320" y="224" text-anchor="middle"
+fill="#5ec8f8" fill-opacity="0.55" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+5 Aug 2026 14:11
 </text>
-
-
-
-<text x="32" y="92" fill="#5ec8f8" fill-opacity="0.65" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">&gt; Total Contributions</text>
-
-<text x="300" y="92" fill="#5ec8f8" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">285</text>
-
-
-<text x="32" y="132" fill="#5ec8f8" fill-opacity="0.65" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">&gt; Current Streak</text>
-
-<text x="300" y="132" fill="#ffd60a" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">1 days</text>
-
-
-<text x="32" y="172" fill="#5ec8f8" fill-opacity="0.65" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">&gt; Longest Streak</text>
-
-<text x="300" y="172" fill="#3ddc84" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">10 days</text>
-
-
-<text x="32" y="212" fill="#5ec8f8" fill-opacity="0.65" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">&gt; Active Days</text>
-
-<text x="300" y="212" fill="#5ec8f8" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">64</text>
-
-
-<text x="32" y="252" fill="#5ec8f8" fill-opacity="0.65" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">&gt; Generated</text>
-
-<text x="300" y="252" fill="#5ec8f8" font-size="15"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">05 Aug 2026</text>
-
-
-
-<text x="32" y="296" fill="#ffd60a" font-size="17"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="600">$</text>
-
-<rect
-x="52"
-y="281"
-width="8"
-height="18"
-rx="1.5"
-fill="#ffd60a">
-<animate
-attributeName="opacity"
-values="1;0;1"
-dur="1s"
-repeatCount="indefinite"/>
-</rect>
-
-
 
 </svg>
