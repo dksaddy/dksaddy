@@ -201,16 +201,16 @@ ${unitLabel(colRightValueX + longestValue.width + 10, row3ValueY, "DAYS", theme.
 ${dateRangeLabel(colRightLabelX, row3DateRangeY, longestRangeText, theme.green)}
 ${longestCommitsBadge.markup}
 
-<text x="${centerX}" y="${peakLabelY}" text-anchor="middle" fill="${theme.text}" fill-opacity="0.85"
+<text x="${centerX}" y="${peakLabelY}" text-anchor="middle" fill="${theme.green}" fill-opacity="0.85"
 font-size="13" font-family="${font}">Peak Day</text>
 
-<text x="${centerX}" y="${peakValueY}" text-anchor="middle" fill="${theme.text}" font-size="22"
+<text x="${centerX}" y="${peakValueY}" text-anchor="middle" fill="${theme.green}" font-size="24"
 font-family="${font}" font-weight="700">${peakDay.contributionCount}</text>
 
-<text x="${centerX}" y="${peakUnitY}" text-anchor="middle" fill="${theme.text}" fill-opacity="0.5"
+<text x="${centerX}" y="${peakUnitY}" text-anchor="middle" fill="${theme.green}" fill-opacity="0.8"
 font-size="11" font-family="${font}">Commits</text>
 
-<text x="${centerX}" y="${peakDateY}" text-anchor="middle" fill="${theme.text}" fill-opacity="0.6"
+<text x="${centerX}" y="${peakDateY}" text-anchor="middle" fill="${theme.green}" fill-opacity="0.9"
 font-size="10" font-family="${font}">${peakDayDateText}</text>
 
 ${meter.markup}
