@@ -90,13 +90,15 @@ function formatGenerated(date) {
     const datePart = date.toLocaleDateString("en-GB", {
         day: "numeric",
         month: "short",
-        year: "numeric"
+        year: "numeric",
+        timeZone: "Asia/Dhaka"
     });
 
     const timePart = date.toLocaleTimeString("en-GB", {
         hour: "2-digit",
         minute: "2-digit",
-        hour12: false
+        hour12: false,
+        timeZone: "Asia/Dhaka"
     });
 
     return `${datePart} ${timePart}`;
@@ -108,7 +110,8 @@ function formatLongDate(dateStr) {
     return new Date(dateStr).toLocaleDateString("en-GB", {
         day: "numeric",
         month: "long",
-        year: "numeric"
+        year: "numeric",
+        timeZone: "Asia/Dhaka"
     });
 }
 
