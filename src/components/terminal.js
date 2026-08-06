@@ -157,6 +157,29 @@ font-family="${font}">${escapeXml(text)}</text>
 `;
 }
 
+// A small flat-bordered pill around a short piece of text, e.g. "29 commits".
+export function badge(x, y, text, color, options = {}) {
+    const { fontSize = 10, padX = 6, padY = 3 } = options;
+
+    const ascent = fontSize * 0.82;
+    const descent = fontSize * 0.2;
+    const boxWidth = textWidth(String(text), fontSize) + padX * 2;
+    const boxHeight = ascent + descent + padY * 2;
+    const boxTop = y - ascent - padY;
+
+    return {
+        markup: `
+<rect x="${x}" y="${boxTop}" width="${boxWidth}" height="${boxHeight}"
+fill="none" stroke="${color}" stroke-opacity="0.6" stroke-width="1"/>
+
+<text x="${x + padX}" y="${y}" fill="${color}" font-size="${fontSize}"
+font-family="${font}">${escapeXml(text)}</text>
+`,
+        width: boxWidth,
+        height: boxHeight
+    };
+}
+
 // A row of small blocks that fill/blink like a tachometer as the count
 // climbs — green through the safe range, amber then red near the top.
 export function rpmMeter(x, y, count, options = {}) {

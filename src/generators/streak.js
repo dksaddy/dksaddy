@@ -16,6 +16,7 @@ export function getCurrentStreak() {
     const reverse = [...days].reverse();
 
     let streak = 0;
+    let commits = 0;
     let start = null;
     let end = null;
     let started = false;
@@ -31,6 +32,7 @@ export function getCurrentStreak() {
             start = day.date;
 
             streak++;
+            commits += day.contributionCount;
 
             started = true;
 
@@ -42,7 +44,7 @@ export function getCurrentStreak() {
 
     }
 
-    return { streak, start, end };
+    return { streak, commits, start, end };
 
 }
 
@@ -51,7 +53,9 @@ export function getLongestStreak() {
     const { days } = getData();
 
     let current = 0;
+    let currentCommits = 0;
     let longest = 0;
+    let longestCommits = 0;
 
     let currentStart = null;
     let currentEnd = null;
@@ -64,6 +68,7 @@ export function getLongestStreak() {
         if (day.contributionCount > 0) {
 
             current++;
+            currentCommits += day.contributionCount;
 
             if (!currentStart) currentStart = day.date;
 
@@ -72,6 +77,7 @@ export function getLongestStreak() {
             if (current > longest) {
 
                 longest = current;
+                longestCommits = currentCommits;
 
                 longestStart = currentStart;
 
@@ -82,6 +88,7 @@ export function getLongestStreak() {
         } else {
 
             current = 0;
+            currentCommits = 0;
             currentStart = null;
             currentEnd = null;
 
@@ -91,6 +98,7 @@ export function getLongestStreak() {
 
     return {
         streak: longest,
+        commits: longestCommits,
         start: longestStart,
         end: longestEnd
     };
@@ -220,6 +228,16 @@ export function getPeakDayContribution() {
 
     return Math.max(
         ...days.map(day => day.contributionCount)
+    );
+}
+
+export function getPeakDay() {
+
+    const { days } = getData();
+
+    return days.reduce(
+        (peak, day) => (day.contributionCount > peak.contributionCount ? day : peak),
+        days[0]
     );
 
 }

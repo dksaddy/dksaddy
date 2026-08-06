@@ -4,8 +4,7 @@ import { loadData, sortDays } from "../utils/svg.js";
 
 import {
     getCurrentWeekContributions,
-    getLast31DaysContributions,
-    getPeakDayContribution
+    getLast31DaysContributions
 } from "./streak.js";
 
 import {
@@ -139,29 +138,24 @@ fill="${theme.yellow}" fill-opacity="0.85" font-size="11" font-family="${font}">
 `;
     }
 
-    // A dot on every day with at least one commit.
+    // Every day with at least one commit gets a ring plus its commit
+    // count printed above it (the same treatment the lone overall peak
+    // used to get by itself).
     const dots = points
         .filter(p => p.value > 0)
         .map(p => `
-<circle cx="${p.x}" cy="${p.y}" r="2.1" fill="${theme.yellow}"/>
-`).join("");
-
-    // Peak day gets a bigger ring plus its commit count printed above it.
-    const peakPoint = points.reduce((a, b) => (b.value > a.value ? b : a));
-
-    const peakMarker = `
-<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="7" fill="${theme.yellow}" opacity="0.15"/>
-<circle cx="${peakPoint.x}" cy="${peakPoint.y}" r="3.3" fill="${theme.background}"
+<circle cx="${p.x}" cy="${p.y}" r="7" fill="${theme.yellow}" opacity="0.15"/>
+<circle cx="${p.x}" cy="${p.y}" r="3.3" fill="${theme.background}"
 stroke="${theme.yellow}" stroke-width="2"/>
-<text x="${peakPoint.x}" y="${peakPoint.y - 10}" text-anchor="middle"
+<text x="${p.x}" y="${p.y - 10}" text-anchor="middle"
 fill="${theme.yellow}" font-size="11" font-family="${font}" font-weight="700">
-${peakPoint.value}
+${p.value}
 </text>
-`;
+`).join("");
 
     const currentWeek = getCurrentWeekContributions();
     const last31Days = getLast31DaysContributions();
-    const peakDay = getPeakDayContribution();
+    const peakDay = Math.max(...points.map(p => p.value));
 
     const meter = rpmMeter(labelX + 8, meterY, currentWeek, { boxHeight: meterBoxHeight });
 
@@ -185,7 +179,6 @@ ${grid}
 <path d="${linePath}" fill="none" stroke="${theme.graph}"
 stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 ${dots}
-${peakMarker}
 
 ${dayLabels(points)}
 
