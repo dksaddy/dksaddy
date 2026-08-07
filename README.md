@@ -3,9 +3,7 @@
 ###
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/activity.svg">
-
+<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/output1/activity.svg">
 </div>
 
 ###
@@ -72,6 +70,8 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/output/stats.svg">
+<div align="center">
+<img src="https://raw.githubusercontent.com/dksaddy/dksaddy/output1/stats.svg">
+</div>
 
 </div>

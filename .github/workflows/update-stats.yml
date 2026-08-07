@@ -1,49 +1,38 @@
 name: Update GitHub Stats
-
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "0 */1 * * *"
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-
       - name: Install dependencies
         run: npm ci
-
       - name: Generate SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           GITHUB_USERNAME: dksaddy
         run: npm run build
-
       - name: Prepare output folder
         run: |
           rm -rf dist
           mkdir dist
-
           cp assets/stats.svg dist/
           cp assets/activity.svg dist/
           cp assets/data.json dist/
-
-      - name: Deploy to output branch
+      - name: Deploy to output1 branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          target_branch: output1
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
