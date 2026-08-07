@@ -4,18 +4,16 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */1 * * *"
 
 permissions:
   contents: write
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -25,7 +23,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Generate SVGs
         env:
@@ -33,15 +31,19 @@ jobs:
           GITHUB_USERNAME: dksaddy
         run: npm run build
 
-      - name: Commit changes
-
+      - name: Prepare output folder
         run: |
+          rm -rf dist
+          mkdir dist
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp assets/stats.svg dist/
+          cp assets/activity.svg dist/
+          cp assets/data.json dist/
 
-          git add assets/
-
-          git diff --cached --quiet || git commit -m "Update GitHub Stats"
-
-          git push
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
