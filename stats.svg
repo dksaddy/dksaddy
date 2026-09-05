@@ -1,0 +1,183 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260"
+viewBox="0 0 640 260">
+
+
+<rect width="640" height="260" fill="#0d1117"/>
+<rect width="640" height="260" fill="none"
+stroke="#b3fd3c" stroke-opacity="0.0" stroke-width="1"/>
+
+
+<text x="320" y="20" text-anchor="middle"
+fill="#ffffff" fill-opacity="0.85" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">
+5 Sept 2026 19:46
+</text>
+
+
+<text x="28" y="37" fill="#ff9f43" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Total</text>
+
+<text x="28" y="51" fill="#ff9f43" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Contribution</text>
+
+
+<text x="170" y="47" fill="#ff9f43" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">927</text>
+
+
+<text x="28" y="72" fill="#ff9f43" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">1 January 2023 &lt;&gt; 5 September 2026</text>
+
+
+
+<text x="420" y="37" fill="#ff9f43" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Last Year</text>
+
+<text x="420" y="51" fill="#ff9f43" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Contribution</text>
+
+
+<text x="560" y="47" fill="#ff9f43" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">447</text>
+
+
+<text x="420" y="72" fill="#ff9f43" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">6 September 2025 &lt;&gt; 5 September 2026</text>
+
+
+
+<text x="28" y="105" fill="#ffd60a" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Total Active</text>
+
+<text x="28" y="119" fill="#ffd60a" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Days</text>
+
+
+<text x="170" y="115" fill="#ffd60a" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">157</text>
+
+
+<text x="28" y="140" fill="#ffd60a" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">1 January 2023 &lt;&gt; 5 September 2026</text>
+
+
+
+<text x="420" y="105" fill="#5ec8f8" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Active</text>
+
+<text x="420" y="119" fill="#5ec8f8" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Days</text>
+
+
+<text x="560" y="115" fill="#5ec8f8" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">71</text>
+
+
+<text x="420" y="140" fill="#5ec8f8" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">6 September 2025 &lt;&gt; 5 September 2026</text>
+
+
+
+<text x="28" y="173" fill="#3ddc84" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Current</text>
+
+<text x="28" y="187" fill="#3ddc84" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Streak</text>
+
+
+<text x="170" y="183" fill="#3ddc84" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">7</text>
+
+
+<text x="191.495" y="183" fill="#3ddc84" fill-opacity="1" font-size="9"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" letter-spacing="1">DAYS</text>
+
+
+<text x="28" y="208" fill="#3ddc84" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">30 August 2026 &lt;&gt; 5 September 2026</text>
+
+
+<rect x="28" y="214.8" width="72.5" height="16.2"
+fill="none" stroke="#3ddc84" stroke-opacity="0.6" stroke-width="1"/>
+
+<text x="34" y="226" fill="#3ddc84" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">64 commits</text>
+
+
+
+<text x="420" y="173" fill="#3ddc84" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Longest</text>
+
+<text x="420" y="187" fill="#3ddc84" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Streak</text>
+
+
+<text x="560" y="183" fill="#3ddc84" font-size="19"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">12</text>
+
+
+<text x="592.99" y="183" fill="#3ddc84" fill-opacity="1" font-size="9"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" letter-spacing="1">DAYS</text>
+
+
+<text x="420" y="208" fill="#3ddc84" fill-opacity="1" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">8 April 2024 &lt;&gt; 19 April 2024</text>
+
+
+<rect x="420" y="214.8" width="72.5" height="16.2"
+fill="none" stroke="#3ddc84" stroke-opacity="0.6" stroke-width="1"/>
+
+<text x="426" y="226" fill="#3ddc84" font-size="10"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">37 commits</text>
+
+
+<text x="320" y="76.5" text-anchor="middle" fill="#3ddc84" fill-opacity="0.85"
+font-size="13" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Peak Day</text>
+
+<text x="320" y="114.5" text-anchor="middle" fill="#3ddc84" font-size="24"
+font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace" font-weight="700">33</text>
+
+<text x="320" y="134.5" text-anchor="middle" fill="#3ddc84" fill-opacity="0.8"
+font-size="11" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">Commits</text>
+
+<text x="320" y="157.5" text-anchor="middle" fill="#3ddc84" fill-opacity="0.9"
+font-size="10" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace">20 August 2026</text>
+
+
+<rect x="293" y="173.5" width="6" height="10" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.000s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="301" y="173.5" width="6" height="10" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.045s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="309" y="173.5" width="6" height="10" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.090s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="317" y="173.5" width="6" height="10" fill="#3ddc84">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.135s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="325" y="173.5" width="6" height="10" fill="#ffd60a">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.180s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="333" y="173.5" width="6" height="10" fill="#ffd60a">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.225s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="341" y="173.5" width="6" height="10" fill="#ff4d4d">
+<animate attributeName="opacity" values="1;0.25;1" dur="0.9s"
+begin="0.270s" repeatCount="indefinite"/>
+</rect>
+
+
+</svg>
