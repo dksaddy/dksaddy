@@ -11,6 +11,9 @@ const graphqlWithAuth = graphql.defaults({
     }
 });
 
+// Years left out of every stat (2023 only had a single stray commit).
+const EXCLUDED_YEARS = [2023];
+
 // Step 1: find every year this account has contribution history for.
 const yearsQuery = `
 query($login:String!){
@@ -65,7 +68,8 @@ async function fetchData() {
     const login = process.env.GITHUB_USERNAME;
 
     const base = await graphqlWithAuth(yearsQuery, { login });
-    const years = base.user.contributionsCollection.contributionYears;
+    const years = base.user.contributionsCollection.contributionYears
+        .filter(year => !EXCLUDED_YEARS.includes(year));
 
     // GitHub's API caps each query to one year of history, so lifetime
     // totals/streaks/active-days need every year fetched and merged.

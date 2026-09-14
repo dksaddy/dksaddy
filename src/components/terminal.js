@@ -149,11 +149,13 @@ font-family="${font}" letter-spacing="1">${text}</text>
 `;
 }
 
-// Fine-print date range under a stat, e.g. "6 July 2025 <> 16 July 2025".
-export function dateRangeLabel(x, y, text, color) {
+// Fine-print date range under a stat, e.g. "6 JUL 25 __ 16 JUL 25".
+export function dateRangeLabel(x, y, text, color, options = {}) {
+    const { anchor = "start", fontSize = 10 } = options;
+
     return `
-<text x="${x}" y="${y}" fill="${color}" fill-opacity="1" font-size="10"
-font-family="${font}">${escapeXml(text)}</text>
+<text x="${x}" y="${y}" text-anchor="${anchor}" fill="${color}" fill-opacity="1"
+font-size="${fontSize}" font-family="${font}">${escapeXml(text)}</text>
 `;
 }
 

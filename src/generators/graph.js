@@ -155,7 +155,8 @@ ${p.value}
 
     const currentWeek = getCurrentWeekContributions();
     const last31Days = getLast31DaysContributions();
-    const peakDay = Math.max(...points.map(p => p.value));
+    // Days in the plotted 31-day window with zero commits.
+    const lazyDays = points.filter(p => p.value === 0).length;
 
     const meter = rpmMeter(labelX + 8, meterY, currentWeek, { boxHeight: meterBoxHeight });
 
@@ -192,7 +193,7 @@ font-family="${font}" font-weight="700">&gt; Current Week <tspan fill-opacity="0
 font-family="${font}" font-weight="700">&gt; Last 31 Days <tspan fill-opacity="0.85" font-weight="400">${last31Days} commits</tspan></text>
 
 <text x="590" y="${statsRowY}" fill="${theme.blue}" font-size="13"
-font-family="${font}" font-weight="700">&gt; Peak Day <tspan fill-opacity="0.85" font-weight="400">${peakDay} commits</tspan></text>
+font-family="${font}" font-weight="700">&gt; Lazy Days <tspan fill-opacity="0.85" font-weight="400">${lazyDays} ${lazyDays === 1 ? "day" : "days"}</tspan></text>
 
 ${meter.markup}
 <text x="${labelX + 8 + meter.width + 12}" y="${meterY + meterBoxHeight - 2}"

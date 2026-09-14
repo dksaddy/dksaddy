@@ -48,59 +48,49 @@ export function getCurrentStreak() {
 
 }
 
-export function getLongestStreak() {
+// Every streak in the data, longest first. Ties keep chronological order,
+// so the earliest of equally long streaks ranks higher.
+export function getStreaks() {
 
     const { days } = getData();
 
-    let current = 0;
-    let currentCommits = 0;
-    let longest = 0;
-    let longestCommits = 0;
-
-    let currentStart = null;
-    let currentEnd = null;
-
-    let longestStart = null;
-    let longestEnd = null;
+    const streaks = [];
+    let current = null;
 
     for (const day of days) {
 
         if (day.contributionCount > 0) {
 
-            current++;
-            currentCommits += day.contributionCount;
+            if (!current) {
 
-            if (!currentStart) currentStart = day.date;
-
-            currentEnd = day.date;
-
-            if (current > longest) {
-
-                longest = current;
-                longestCommits = currentCommits;
-
-                longestStart = currentStart;
-
-                longestEnd = currentEnd;
+                current = { streak: 0, commits: 0, start: day.date, end: day.date };
+                streaks.push(current);
 
             }
 
+            current.streak++;
+            current.commits += day.contributionCount;
+            current.end = day.date;
+
         } else {
 
-            current = 0;
-            currentCommits = 0;
-            currentStart = null;
-            currentEnd = null;
+            current = null;
 
         }
 
     }
 
-    return {
-        streak: longest,
-        commits: longestCommits,
-        start: longestStart,
-        end: longestEnd
+    return streaks.sort((a, b) => b.streak - a.streak);
+
+}
+
+export function getLongestStreak() {
+
+    return getStreaks()[0] ?? {
+        streak: 0,
+        commits: 0,
+        start: null,
+        end: null
     };
 
 }

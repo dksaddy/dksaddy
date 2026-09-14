@@ -2,7 +2,7 @@ name: Update GitHub Stats
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 11 * * *" #12:00 AM
+    - cron: "0 13 * * *" # 7:00 PM
 permissions:
   contents: write
 jobs:
@@ -28,7 +28,6 @@ jobs:
           mkdir dist
           cp assets/stats.svg dist/
           cp assets/activity.svg dist/
-          cp assets/data.json dist/
       - name: Deploy to output1 branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
