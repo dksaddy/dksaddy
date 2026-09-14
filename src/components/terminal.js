@@ -65,6 +65,43 @@ $ ${command}
 `;
 }
 
+// A prompt whose trailing number counts up from 0 to `to` over `duration`
+// seconds, holds on `to` for `hold` seconds, then starts over. Each step is
+// a full copy of the line stacked at the same spot and shown for its time
+// slice — so the text lines up exactly without measuring the prefix width.
+export function countUpPrompt(x, y, command, to, duration = 10, hold = 5) {
+    const fontSize = 12;
+    const numberFontSize = fontSize * 1.3; // counter stands out 30% larger
+    const cycle = duration + hold;
+    const step = duration / to;
+    const key = (seconds) => (seconds / cycle).toFixed(4);
+    let out = "";
+
+    for (let n = 0; n <= to; n++) {
+        const start = n * step;
+        const end = n === to ? cycle : start + step;
+
+        // Discrete visibility timeline over one cycle: hidden until this
+        // number's slice, visible during it, hidden again after.
+        const timeline = [];
+        if (start > 0) timeline.push(["hidden", 0]);
+        timeline.push(["visible", start]);
+        if (end < cycle) timeline.push(["hidden", end]);
+
+        const values = timeline.map(([v]) => v).join(";");
+        const keyTimes = timeline.map(([, t]) => key(t)).join(";");
+
+        out += `
+<text x="${x}" y="${y}" fill="${theme.yellow}" font-size="${fontSize}" font-family="${font}"
+font-weight="600" visibility="hidden">$ ${command} <tspan font-size="${numberFontSize}">${n}</tspan><animate attributeName="visibility"
+values="${values}" keyTimes="${keyTimes}" calcMode="discrete" dur="${cycle}s"
+repeatCount="indefinite"/></text>
+`;
+    }
+
+    return out;
+}
+
 // A left-label / right-value row, e.g. "> Current Streak    18 days"
 export function statRow(x, y, valueX, label, value, color = theme.text) {
     return `

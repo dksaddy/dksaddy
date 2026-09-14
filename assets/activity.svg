@@ -15,15 +15,165 @@ viewBox="0 0 820 305">
 stroke="#b3fd3c" stroke-opacity="0.0" stroke-width="1"/>
 
 
-<text
-x="32"
-y="26"
-fill="#ffd60a"
-font-size="12"
-font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
-font-weight="600">
-$ github activity --last 31
-</text>
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">0</tspan><animate attributeName="visibility"
+values="visible;hidden" keyTimes="0.0000;0.0215" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">1</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.0215;0.0430" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">2</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.0430;0.0645" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">3</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.0645;0.0860" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">4</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.0860;0.1075" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">5</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.1075;0.1290" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">6</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.1290;0.1505" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">7</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.1505;0.1720" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">8</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.1720;0.1935" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">9</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.1935;0.2151" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">10</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.2151;0.2366" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">11</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.2366;0.2581" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">12</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.2581;0.2796" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">13</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.2796;0.3011" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">14</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.3011;0.3226" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">15</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.3226;0.3441" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">16</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.3441;0.3656" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">17</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.3656;0.3871" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">18</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.3871;0.4086" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">19</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.4086;0.4301" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">20</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.4301;0.4516" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">21</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.4516;0.4731" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">22</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.4731;0.4946" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">23</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.4946;0.5161" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">24</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.5161;0.5376" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">25</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.5376;0.5591" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">26</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.5591;0.5806" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">27</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.5806;0.6022" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">28</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.6022;0.6237" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">29</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.6237;0.6452" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">30</tspan><animate attributeName="visibility"
+values="hidden;visible;hidden" keyTimes="0.0000;0.6452;0.6667" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
+
+<text x="32" y="26" fill="#ffd60a" font-size="12" font-family="Cascadia Code, JetBrains Mono, Fira Code, Consolas, Courier New, monospace"
+font-weight="600" visibility="hidden">$ github activity --last <tspan font-size="15.600000000000001">31</tspan><animate attributeName="visibility"
+values="hidden;visible" keyTimes="0.0000;0.6667" calcMode="discrete" dur="15s"
+repeatCount="indefinite"/></text>
 
 
 

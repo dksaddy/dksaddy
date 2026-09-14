@@ -9,7 +9,7 @@ import {
 
 import {
     terminalWindow,
-    terminalPrompt,
+    countUpPrompt,
     rpmMeter,
     theme,
     font
@@ -172,7 +172,7 @@ viewBox="0 0 ${width} ${height}">
 </defs>
 
 ${terminalWindow(width, height)}
-${terminalPrompt(labelX + 8, promptY, "github activity --last 31")}
+${countUpPrompt(labelX + 8, promptY, "github activity --last", points.length)}
 
 ${grid}
 

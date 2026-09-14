@@ -33,19 +33,15 @@ const width = 680;
 const sideMargin = 28;
 const valueOffset = 142; // label x -> value x, shared by both columns
 
-// Widest thing a column holds: either a worst-case date-range caption or
-// a value + DAYS suffix. The right column is placed so it still ends
-// sideMargin from the edge, mirroring the left column.
-const columnWidth = Math.max(
-    textWidth("30 SEPT 26 __ 30 SEPT 26", 10),
-    valueOffset + textWidth("9999", 19) + 10 + textWidth("DAYS", 9) + 4
-);
+const unitGap = 10; // value -> DAYS suffix
+const unitWidth = textWidth("DAYS", 9) + 4; // + letter-spacing
 
-const colLeftLabelX = sideMargin;
-const colLeftValueX = colLeftLabelX + valueOffset;
-
-const colRightLabelX = Math.floor(width - sideMargin - columnWidth);
-const colRightValueX = colRightLabelX + valueOffset;
+// The card is split into three equal slots. The left/right stat columns
+// and the runner-up streaks below are all centered on their slot, so
+// everything lines up vertically and Peak Day sits in the middle slot.
+const slotCount = 3;
+const slotWidth = (width - sideMargin * 2) / slotCount;
+const slotCenter = (i) => sideMargin + slotWidth * (i + 0.5);
 
 // The generated-at timestamp sits at the top of the card; everything
 // else is pushed down by topOffset to make room for it.
@@ -72,11 +68,9 @@ const contentBottom = row3CommitsY + 20;
 
 // Runner-up streaks (2nd, 3rd, 4th longest) along the bottom, in evenly
 // spaced slots across the card — value + DAYS, date range, commits badge.
-const runnerUpCount = 3;
 const runnerUpValueY = row3CommitsY + 38;
 const runnerUpDateY = runnerUpValueY + 16;
 const runnerUpCommitsY = runnerUpDateY + 18;
-const runnerUpSlotWidth = (width - sideMargin * 2) / runnerUpCount;
 const runnerUpSlotGap = 12;
 
 // Activity meter — a row of blinking boxes, one per 5 commits, sitting
@@ -174,6 +168,38 @@ export default function generateCard() {
     const peakDay = getPeakDay();
     const peakDayDateText = formatShortDate(peakDay.date);
 
+    // Widest line in a stat column — labels, values (+ DAYS on the streak
+    // row), date ranges, commits badge. Used to center the column block.
+    const columnWidth = ({ labels, values, streak, ranges, commitsText }) => Math.max(
+        ...labels.map(label => textWidth(label, 13)),
+        ...values.map(value => valueOffset + textWidth(String(value), 19)),
+        valueOffset + textWidth(String(streak), 19) + unitGap + unitWidth,
+        ...ranges.map(range => textWidth(range, 10)),
+        badge(0, 0, commitsText, theme.green).width
+    );
+
+    const leftWidth = columnWidth({
+        labels: ["Contribution", "Total Active", "Current", "Streak"],
+        values: [lifetimeTotal, lifetimeActiveDays],
+        streak: current.streak,
+        ranges: [lifetimeRangeText, currentRangeText],
+        commitsText: currentCommitsText
+    });
+
+    const rightWidth = columnWidth({
+        labels: ["Last Year", "Contribution", "Active", "Longest", "Streak"],
+        values: [last365Total, last365ActiveDays],
+        streak: longest.streak,
+        ranges: [last365RangeText, longestRangeText],
+        commitsText: longestCommitsText
+    });
+
+    const colLeftLabelX = Math.round(slotCenter(0) - leftWidth / 2);
+    const colLeftValueX = colLeftLabelX + valueOffset;
+
+    const colRightLabelX = Math.round(slotCenter(slotCount - 1) - rightWidth / 2);
+    const colRightValueX = colRightLabelX + valueOffset;
+
     // Row 1 — Total Contribution (lifetime) | Last Year (365-day window)
     const totalValue = plainValue(colLeftValueX, row1ValueY, lifetimeTotal, theme.orange);
     const lastYearValue = plainValue(colRightValueX, row1ValueY, last365Total, theme.orange);
@@ -202,16 +228,15 @@ export default function generateCard() {
 
     // Bottom row — 2nd/3rd/4th longest streaks. Date text shrinks if a long
     // month pair would spill past its slot.
-    const runnerUps = getStreaks().slice(1, 1 + runnerUpCount).map((streak, i) => {
-        const cx = sideMargin + runnerUpSlotWidth * (i + 0.5);
+    const runnerUps = getStreaks().slice(1, 1 + slotCount).map((streak, i) => {
+        const cx = slotCenter(i);
 
         const valueWidth = textWidth(String(streak.streak), 19);
-        const unitWidth = textWidth("DAYS", 9) + 4; // + letter-spacing
-        const valueX = cx - (valueWidth + 10 + unitWidth) / 2;
+        const valueX = cx - (valueWidth + unitGap + unitWidth) / 2;
         const value = plainValue(valueX, runnerUpValueY, streak.streak, theme.green);
 
         const rangeText = formatRange(streak);
-        const dateFontSize = Math.min(10, (runnerUpSlotWidth - runnerUpSlotGap) / textWidth(rangeText, 1));
+        const dateFontSize = Math.min(10, (slotWidth - runnerUpSlotGap) / textWidth(rangeText, 1));
 
         const commitsText = `${streak.commits} commits`;
         const commitsWidth = badge(0, 0, commitsText, theme.green).width;
@@ -219,7 +244,7 @@ export default function generateCard() {
 
         return `
 ${value.markup}
-${unitLabel(valueX + value.width + 10, runnerUpValueY, "DAYS", theme.green)}
+${unitLabel(valueX + value.width + unitGap, runnerUpValueY, "DAYS", theme.green)}
 ${dateRangeLabel(cx, runnerUpDateY, rangeText, theme.green, { anchor: "middle", fontSize: dateFontSize })}
 ${commitsBadge.markup}
 `;
@@ -254,13 +279,13 @@ ${dateRangeLabel(colRightLabelX, row2DateRangeY, last365RangeText, theme.blue)}
 
 ${twoLineLabel(colLeftLabelX, row3LabelY, ["Current", "Streak"], theme.green)}
 ${currentValue.markup}
-${unitLabel(colLeftValueX + currentValue.width + 10, row3ValueY, "DAYS", theme.green)}
+${unitLabel(colLeftValueX + currentValue.width + unitGap, row3ValueY, "DAYS", theme.green)}
 ${dateRangeLabel(colLeftLabelX, row3DateRangeY, currentRangeText, theme.green)}
 ${currentCommitsBadge.markup}
 
 ${twoLineLabel(colRightLabelX, row3LabelY, ["Longest", "Streak"], theme.green)}
 ${longestValue.markup}
-${unitLabel(colRightValueX + longestValue.width + 10, row3ValueY, "DAYS", theme.green)}
+${unitLabel(colRightValueX + longestValue.width + unitGap, row3ValueY, "DAYS", theme.green)}
 ${dateRangeLabel(colRightLabelX, row3DateRangeY, longestRangeText, theme.green)}
 ${longestCommitsBadge.markup}
 
